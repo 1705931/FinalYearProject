@@ -7,7 +7,6 @@ import java.io.IOException;
 public class MainGUI extends JFrame{
     private JButton analyseRepoButton;
     private JPanel rootPanel;
-    private JComboBox languageSelector;
     private JComboBox repoSelector;
     private JButton analyseResultButton;
     String[] dirnames; //this array stores the names of directories
@@ -31,23 +30,11 @@ public class MainGUI extends JFrame{
             public void actionPerformed(ActionEvent e)
             {
                 try{
-                    if (languageSelector.getSelectedItem().equals("Python")){
-//                        Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd ..\\VulinOSS\\vulinoss && pylint " + repoSelector.getSelectedItem() + " -f json >> ..\\data\\python_output\\" + repoSelector.getSelectedItem() + "_report.json");
-//                        Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd ..\\VulinOSS\\vulinoss && bandit -r -ll -ii " + repoSelector.getSelectedItem() + " -f json -o ..\\data\\python_output\\" + repoSelector.getSelectedItem() + "_vuln.json");
-                        Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd ..\\VulinOSS\\vulinoss && bandit -r " + repoSelector.getSelectedItem() + " -f json -o ..\\data\\python_output\\" + repoSelector.getSelectedItem() + "_vuln.json");
-                    }
-                    else if (languageSelector.getSelectedItem().equals("C")){
-                        Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd ..\\VulinOSS\\vulinoss && cpplint --recursive " + repoSelector.getSelectedItem());
-                    }
-                    else if (languageSelector.getSelectedItem().equals("JavaScript")){
-                        Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd ..\\VulinOSS\\vulinoss && retire --path " + repoSelector.getSelectedItem() + " --outputformat json --outputpath ..\\data\\js_output\\" + repoSelector.getSelectedItem() + ".json");
-                    }
-                } catch (Exception ex)
-                {
+                    Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd ..\\VulinOSS\\vulinoss && bandit -r " + repoSelector.getSelectedItem() + " -f json -o ..\\data\\python_output\\" + repoSelector.getSelectedItem() + "_vuln.json");
+                } catch (Exception ex) {
                     System.out.println(ex);
                     ex.printStackTrace();
                 }
-
             }
         });
 
@@ -59,7 +46,6 @@ public class MainGUI extends JFrame{
                 } catch (IOException ioException) {
                     ioException.printStackTrace();
                 }
-
             }
         });
     }
