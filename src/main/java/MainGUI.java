@@ -1,8 +1,9 @@
+import javax.script.ScriptException;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-import java.io.IOException;
+import java.io.FileNotFoundException;
 
 public class MainGUI extends JFrame{
     private JButton analyseRepoButton;
@@ -11,6 +12,7 @@ public class MainGUI extends JFrame{
     private JButton analyseResultButton;
     String[] dirnames; //this array stores the names of directories
     File f = new File("D:\\IntelliJ Projects\\VulinOSS\\vulinoss"); //path of where the directories
+    Roperations r = new Roperations();
 
     public MainGUI()
     {
@@ -42,9 +44,9 @@ public class MainGUI extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    Runtime.getRuntime().exec("");
-                } catch (IOException ioException) {
-                    ioException.printStackTrace();
+                    r.testR();
+                } catch (ScriptException | FileNotFoundException scriptException) {
+                    scriptException.printStackTrace();
                 }
             }
         });
