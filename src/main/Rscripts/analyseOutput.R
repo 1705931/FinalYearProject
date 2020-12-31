@@ -1,0 +1,1 @@
+inputData <- attach(my.data)

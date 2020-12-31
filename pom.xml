@@ -11,16 +11,10 @@
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
+        <renjin.version>3.5-beta43</renjin.version>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.github.jbytecode</groupId>
-            <artifactId>RCaller</artifactId>
-            <version>3.0</version>
-            <classifier>jar-with-dependencies</classifier>
-        </dependency>
-
         <dependency>
             <groupId>org.renjin</groupId>
             <artifactId>renjin-script-engine</artifactId>
@@ -29,9 +23,16 @@
 
         <dependency>
             <groupId>org.renjin.cran</groupId>
-            <artifactId>exptest</artifactId>
-            <version>1.2-b214</version>
+            <artifactId>jsonlite</artifactId>
+            <version>1.5-b50</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.renjin.cran</groupId>
+            <artifactId>rjson</artifactId>
+            <version>0.2.15-renjin-21</version>
+        </dependency>
+
     </dependencies>
 
     <repositories>
@@ -41,5 +42,40 @@
             <url>https://nexus.bedatadriven.com/content/groups/public/</url>
         </repository>
     </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>bedatadriven</id>
+            <name>bedatadriven public repo</name>
+            <url>https://nexus.bedatadriven.com/content/groups/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.renjin</groupId>
+                <artifactId>renjin-maven-plugin</artifactId>
+                <version>3.5-beta43</version>
+                <executions>
+                    <execution>
+                        <id>build</id>
+                        <goals>
+                            <goal>namespace-compile</goal>
+                        </goals>
+                        <phase>process-classes</phase>
+                    </execution>
+                    <execution>
+                        <id>test</id>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                        <phase>test</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
