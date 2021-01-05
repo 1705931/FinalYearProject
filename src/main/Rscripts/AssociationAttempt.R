@@ -1,16 +1,28 @@
 #load the file
 library(rjson)
-# library(jsonlite)
+library(rlist)
+library(jsonlite)
 library(tidyverse)
 library(plyr)
 library(dplyr)
 library(gdata)
 inputData <- ("D:\\IntelliJ Projects\\FinalYearProject\\src\\main\\bandit_output\\asterisk_vuln.json")
 
-#json_data <- fromJSON(paste(readLines(inputData), collapse=""))
-json_data <- fromJSON(file = inputData, simplify = TRUE)
+# json_data <- fromJSON(paste(readLines(inputData), collapse=""))
+# json_data <- fromJSON(file = inputData, simplify = TRUE)
 json_data <- fromJSON(file = inputData)
-json_data_frame <- as.data.frame(json_data$results)
+json_data <- json_data$results
+results<-as.data.frame(do.call("cbind", json_data))
+
+new_list <- list()
+for (result in json_data){
+  #delete the line_range variable
+  result$line_range <- NULL
+  new_list <- append(new_list, result)
+}
+
+results2<-as.data.frame(do.call("cbind", new_list))
+#json_data_frame <- as.data.frame(json_data$results)
 
 #parse the JSON file into a data.frame
 data <- jsonlite::fromJSON(inputData, simplifyDataFrame = TRUE)
@@ -21,11 +33,24 @@ results = data$results
 results <- as.data.frame(data$results)
 
 results_data_frame <- as.data.frame(results)
+
+for (result in results){
+  #delete the line_range variable
+  result$line_range <- NULL
+  # the next two lines are really close
+  # results_data_frame <- data.frame(result)
+  # results_data_frame[length(results_data_frame) + 1,] <- result
+
+  results_data_frame <- rbind(results_data_frame, data.frame(result))
+}
+
 #from the initial json file, you can plot issue severity against line number
 #plot(as.factor(results$issue_severity), results$line_number, xlab="Issue Severity", ylab="Line Number")
 
 #delete the line_range variable
 results$line_range = NULL
+
+
 
 #complete.cases(data) will return a logical vector indicating which rows have no missing values.
 #Then use the vector to get only rows that are complete using results[,].
