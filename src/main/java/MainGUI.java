@@ -3,6 +3,7 @@ import org.renjin.sexp.SEXP;
 
 import javax.script.ScriptException;
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -13,18 +14,17 @@ public class MainGUI extends JFrame{
     private JPanel rootPanel;
     private JComboBox repoSelector;
     private JButton analyseResultButton;
-    private JLabel rOutputString;
-    private JTable rOutputTable;
+    private JTextArea rOutputArea;
     String[] dirnames; //this array stores the names of directories
-    File f = new File("D:\\IntelliJ Projects\\VulinOSS\\vulinoss"); //path of where the directories
+    File f = new File("D:\\IntelliJ Projects\\VulinOSS\\vulinoss"); //path of where the directories are
     Roperations r = new Roperations();
-    String[] columnNames = {"test_id", "issue_severity", "line_number"};
-    double[] data;
 
     public MainGUI()
     {
-        //This uses the designer form
-        add(rootPanel);
+        //Create a JScrollPane and add the JPanel to it
+        JScrollPane scroller = new JScrollPane(rootPanel);
+        this.getContentPane().add(scroller, BorderLayout.CENTER);
+        add(scroller);
 
         //for each directory name, add it to the repoSelector JComboBox
         for (String s : dirnames = f.list()) {
@@ -53,12 +53,8 @@ public class MainGUI extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     String result = r.testR(repoSelector.getSelectedItem());
-                    rOutputString.setText(result);
-//                    ListVector result = (ListVector) r.testR(repoSelector.getSelectedItem());
-//                    result.copyTo(data, 0, data.length);
-//                    rOutputString.setText(data.toString());
-//                    rOutputTable = new JTable(data, columnNames);
-//                    rOutputTable.setBounds(30,40,200,300);
+                    rOutputArea.setText("");
+                    rOutputArea.append(result);
 
                 } catch (ScriptException | IOException scriptException) {
                     scriptException.printStackTrace();

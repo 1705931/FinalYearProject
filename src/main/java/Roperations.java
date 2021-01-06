@@ -22,18 +22,19 @@ public class Roperations {
         //set the writer of Renjin so that the output is stored in a java StringWriter
         engine.getContext().setWriter(outputWriter);
         //the output of the R script will now go to a StringWriter rather than the console
-        engine.eval(new java.io.FileReader("src\\main\\Rscripts\\test.R"));
+        engine.eval(new java.io.FileReader("src\\main\\Rscripts\\formatTable.R"));
         //convert the StringWriter output to a String
         String output = outputWriter.toString();
-        System.out.println("The R script says:\n" + output);
+        //print the result to console
+//        System.out.println("The R script says:\n" + output);
 
-//        SEXP result = (SEXP)engine.eval(new java.io.FileReader("src\\main\\Rscripts\\test.R"));
-//        System.out.println("The R script says: " + result);
-//        // determine the Java class of the result:
-//        Class objectType = result.getClass();
-//        System.out.println("Java class is: " + objectType.getName());
-//        // use the getTypeName() method of the SEXP object to get R's type name:
-//        System.out.println("In R, typeof(res) would give '" + result.getTypeName() + "'");
+        SEXP result = (SEXP)engine.eval(new java.io.FileReader("src\\main\\Rscripts\\formatTable.R"));
+        System.out.println("The R script says: " + result);
+        // determine the Java class of the result:
+        Class objectType = result.getClass();
+        System.out.println("Java class is: " + objectType.getName());
+        // use the getTypeName() method of the SEXP object to get R's type name:
+        System.out.println("In R, typeof(res) would give '" + result.getTypeName() + "'");
 
         // Reset output to console
         engine.getContext().setWriter(new PrintWriter(System.out));
