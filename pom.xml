@@ -27,6 +27,18 @@
             <version>0.2.15-renjin-21</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.renjin.cran</groupId>
+            <artifactId>plyr</artifactId>
+            <version>1.8.4-b107</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.renjin.cran</groupId>
+            <artifactId>arules</artifactId>
+            <version>1.6-3-b1</version>
+        </dependency>
+
 <!--        <dependency>-->
 <!--            <groupId>org.renjin.cran</groupId>-->
 <!--            <artifactId>jsonlite</artifactId>-->

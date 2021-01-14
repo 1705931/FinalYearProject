@@ -1,6 +1,3 @@
-import org.renjin.sexp.ListVector;
-import org.renjin.sexp.SEXP;
-
 import javax.script.ScriptException;
 import javax.swing.*;
 import java.awt.*;
@@ -13,8 +10,10 @@ public class MainGUI extends JFrame{
     private JButton analyseRepoButton;
     private JPanel rootPanel;
     private JComboBox repoSelector;
-    private JButton analyseResultButton;
+    private JButton showTableButton;
     private JTextArea rOutputArea;
+    private JButton generateCSVButton;
+    private JButton generateResults;
     String[] dirnames; //this array stores the names of directories
     File f = new File("D:\\IntelliJ Projects\\VulinOSS\\vulinoss"); //path of where the directories are
     Roperations r = new Roperations();
@@ -48,14 +47,39 @@ public class MainGUI extends JFrame{
             }
         });
 
-        analyseResultButton.addActionListener(new ActionListener() {
+        showTableButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    String result = r.testR(repoSelector.getSelectedItem());
+                    String result = r.generateTable(repoSelector.getSelectedItem());
                     rOutputArea.setText("");
                     rOutputArea.append(result);
+                } catch (ScriptException | IOException scriptException) {
+                    scriptException.printStackTrace();
+                }
+            }
+        });
 
+        generateCSVButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    String result = r.generateCSV(repoSelector.getSelectedItem());
+                    rOutputArea.setText("");
+                    rOutputArea.append(result);
+                } catch (ScriptException | IOException scriptException) {
+                    scriptException.printStackTrace();
+                }
+            }
+        });
+
+        generateResults.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    String result = r.generateResults(repoSelector.getSelectedItem());
+                    rOutputArea.setText("");
+                    rOutputArea.append(result);
                 } catch (ScriptException | IOException scriptException) {
                     scriptException.printStackTrace();
                 }
