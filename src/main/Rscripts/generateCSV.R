@@ -12,7 +12,6 @@ results_df_new <- as.data.frame(t(results_df))
 #set the headings for the dataframe
 headings <- c("test_id", "line_number")
 results_df_formatted <- results_df_new[headings]
-# print(results_df_formatted)
 
 #You cannot group variables if they are in a list, so unlist to character
 results_df_formatted$test_id <- as.character(unlist(results_df_formatted$test_id))

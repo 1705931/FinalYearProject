@@ -14,6 +14,10 @@ public class MainGUI extends JFrame{
     private JTextArea rOutputArea;
     private JButton generateCSVButton;
     private JButton generateResults;
+    private JButton showLineNumbersButton;
+    private JButton lowSev;
+    private JButton mediumSev;
+    private JButton highSev;
     String[] dirnames; //this array stores the names of directories
     File f = new File("D:\\IntelliJ Projects\\VulinOSS\\vulinoss"); //path of where the directories are
     Roperations r = new Roperations();
@@ -52,6 +56,7 @@ public class MainGUI extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     String result = r.generateTable(repoSelector.getSelectedItem());
+                    rOutputArea.setLineWrap(true);
                     rOutputArea.setText("");
                     rOutputArea.append(result);
                 } catch (ScriptException | IOException scriptException) {
@@ -60,11 +65,12 @@ public class MainGUI extends JFrame{
             }
         });
 
-        generateCSVButton.addActionListener(new ActionListener() {
+        showLineNumbersButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    String result = r.generateCSV(repoSelector.getSelectedItem());
+                    String result = r.generateLineNumbers(repoSelector.getSelectedItem());
+                    rOutputArea.setLineWrap(true);
                     rOutputArea.setText("");
                     rOutputArea.append(result);
                 } catch (ScriptException | IOException scriptException) {
@@ -73,11 +79,11 @@ public class MainGUI extends JFrame{
             }
         });
 
-        generateResults.addActionListener(new ActionListener() {
+        lowSev.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    String result = r.generateResults(repoSelector.getSelectedItem());
+                    String result = r.generateLow(repoSelector.getSelectedItem());
                     rOutputArea.setText("");
                     rOutputArea.append(result);
                 } catch (ScriptException | IOException scriptException) {
@@ -85,5 +91,57 @@ public class MainGUI extends JFrame{
                 }
             }
         });
+
+        mediumSev.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    String result = r.generateMedium(repoSelector.getSelectedItem());
+                    rOutputArea.setText("");
+                    rOutputArea.append(result);
+                } catch (ScriptException | IOException scriptException) {
+                    scriptException.printStackTrace();
+                }
+            }
+        });
+
+        highSev.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    String result = r.generateHigh(repoSelector.getSelectedItem());
+                    rOutputArea.setText("");
+                    rOutputArea.append(result);
+                } catch (ScriptException | IOException scriptException) {
+                    scriptException.printStackTrace();
+                }
+            }
+        });
+
+//        generateCSVButton.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                try {
+//                    String result = r.generateCSV(repoSelector.getSelectedItem());
+//                    rOutputArea.setText("");
+//                    rOutputArea.append(result);
+//                } catch (ScriptException | IOException scriptException) {
+//                    scriptException.printStackTrace();
+//                }
+//            }
+//        });
+
+//        generateResults.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                try {
+//                    String result = r.generateResults();
+//                    rOutputArea.setText("");
+//                    rOutputArea.append(result);
+//                } catch (ScriptException | IOException scriptException) {
+//                    scriptException.printStackTrace();
+//                }
+//            }
+//        });
     }
 }
