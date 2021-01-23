@@ -48,6 +48,25 @@ public class Roperations {
         return output;
     }
 
+    public String generateTableByFile(Object repoName) throws ScriptException, IOException {
+        engine.put("inputData", ("src\\main\\bandit_output\\"+repoName+"_vuln.json"));
+        StringWriter outputWriter = new StringWriter();
+        engine.getContext().setWriter(outputWriter);
+        engine.eval(new java.io.FileReader("src\\main\\Rscripts\\generateVulnStats.R"));
+        engine.eval("print(filename_table)");
+        String output = outputWriter.toString();
+        return output;
+    }
+    public String generateLineNoAndSev(Object repoName) throws ScriptException, IOException {
+        engine.put("inputData", ("src\\main\\bandit_output\\"+repoName+"_vuln.json"));
+        StringWriter outputWriter = new StringWriter();
+        engine.getContext().setWriter(outputWriter);
+        engine.eval(new java.io.FileReader("src\\main\\Rscripts\\generateVulnStats.R"));
+        engine.eval("print(issue_sev_vs_line_no)");
+        String output = outputWriter.toString();
+        return output;
+    }
+
     public String generateLow(Object repoName) throws ScriptException, IOException {
         engine.put("inputData", ("src\\main\\bandit_output\\"+repoName+"_vuln.json"));
         StringWriter outputWriter = new StringWriter();

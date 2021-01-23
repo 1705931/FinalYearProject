@@ -18,6 +18,8 @@ public class MainGUI extends JFrame{
     private JButton lowSev;
     private JButton mediumSev;
     private JButton highSev;
+    private JButton showTableByFile;
+    private JButton lineNoIssueSev;
     String[] dirnames; //this array stores the names of directories
     File f = new File("D:\\IntelliJ Projects\\VulinOSS\\vulinoss"); //path of where the directories are
     Roperations r = new Roperations();
@@ -70,6 +72,34 @@ public class MainGUI extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     String result = r.generateLineNumbers(repoSelector.getSelectedItem());
+                    rOutputArea.setLineWrap(true);
+                    rOutputArea.setText("");
+                    rOutputArea.append(result);
+                } catch (ScriptException | IOException scriptException) {
+                    scriptException.printStackTrace();
+                }
+            }
+        });
+
+        showTableByFile.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    String result = r.generateTableByFile(repoSelector.getSelectedItem());
+                    rOutputArea.setLineWrap(true);
+                    rOutputArea.setText("");
+                    rOutputArea.append(result);
+                } catch (ScriptException | IOException scriptException) {
+                    scriptException.printStackTrace();
+                }
+            }
+        });
+
+        lineNoIssueSev.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    String result = r.generateLineNoAndSev(repoSelector.getSelectedItem());
                     rOutputArea.setLineWrap(true);
                     rOutputArea.setText("");
                     rOutputArea.append(result);
