@@ -22,6 +22,17 @@ public class Roperations {
         //the output of the R script will now go to a StringWriter rather than the console
         engine.eval(new java.io.FileReader("src\\main\\Rscripts\\generateVulnStats.R"));
         //
+        engine.eval("print(no_of_issues)");
+        //
+        engine.eval("cat(\"\nTotal Number of Severities: \\n\")");
+        engine.eval("print(total_issue_sev)");
+        engine.eval("for(i in filename_table$filename){\n" +
+                "  print(i)\n" +
+                "}");
+        engine.eval("for (i in filename_table$line_numbers){\n" +
+                "  print(mean(as.integer(unlist(strsplit(i, \",\")))))\n" +
+                "}");
+        //
         engine.eval("print(summary_table, width = 500)");
         //
         engine.eval("print(line_no_table, width = 500)");

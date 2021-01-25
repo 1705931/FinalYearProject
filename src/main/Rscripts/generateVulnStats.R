@@ -6,7 +6,17 @@ library('org.renjin.cran:plyr')
 library('org.renjin.cran:tibble')
 
 json_data <- fromJSON(file = inputData)
+#Collect the results from the results part of the json file
 results <- json_data$results
+#Collect the metrics from the metrics part of the json file
+metrics <- json_data$metrics
+#Calculate the total of files scanned in the repository, the -1 is
+#needed because the first element in the json file shows total metrics
+files_scanned <- length(metrics)-1
+#Calculate the total of issues found
+issues_found <- length(results)
+#Create a simple character array to store number of files scanned and number of issues
+no_of_issues <- c("Files Scanned: ", files_scanned, "Issues Found: ", issues_found)
 #Create a dataframe from the results
 results_df<-as.data.frame(do.call("cbind", results))
 #Switch the rows and columns, so that every new record appears as a row and not a column
@@ -19,6 +29,8 @@ results_df_formatted$filename <- as.character(unlist(results_df_formatted$filena
 results_df_formatted$test_id <- as.character(unlist(results_df_formatted$test_id))
 results_df_formatted$line_number <- as.character(unlist(results_df_formatted$line_number))
 results_df_formatted$issue_severity <- as.character(unlist(results_df_formatted$issue_severity))
+#Create a table that shows the total number of each issue severity
+total_issue_sev <- table(results_df_formatted$issue_severity)
 #Group data by test_id, combine all line numbers and issue severities with the corresponding test_id
 summary_table <- ddply(results_df_formatted,c("test_id", "issue_severity"),
                     function(df1)paste(df1$line_number,
