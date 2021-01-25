@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainGUI">
-  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="14" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="484"/>
+      <xy x="20" y="20" width="500" height="239"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
       <component id="30943" class="javax.swing.JButton" binding="analyseRepoButton">
         <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="156" height="30"/>
           </grid>
         </constraints>
@@ -20,7 +20,7 @@
       </component>
       <component id="5af48" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Choose Repository:"/>
@@ -28,91 +28,34 @@
       </component>
       <component id="d6d54" class="javax.swing.JComboBox" binding="repoSelector">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <model/>
         </properties>
       </component>
-      <component id="2b51c" class="javax.swing.JButton" binding="showTableButton">
-        <constraints>
-          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Show Table"/>
-        </properties>
-      </component>
-      <component id="cb058" class="javax.swing.JTextArea" binding="rOutputArea">
-        <constraints>
-          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="50"/>
-            <maximum-size width="1750" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="595bb" class="javax.swing.JButton" binding="showLineNumbersButton" default-binding="true">
+      <component id="2b51c" class="javax.swing.JButton" binding="showResultsButton">
         <constraints>
           <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Show Line Numbers"/>
+          <text value="Generate and Show Results"/>
         </properties>
       </component>
-      <component id="19f6" class="javax.swing.JButton" binding="generateResults">
+      <component id="cb058" class="javax.swing.JTextArea" binding="rOutputArea">
         <constraints>
-          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
         </constraints>
-        <properties>
-          <text value="Generate Results"/>
-        </properties>
+        <properties/>
       </component>
-      <component id="586b0" class="javax.swing.JButton" binding="generateCSVButton">
+      <component id="79e89" class="javax.swing.JButton" binding="loadReposButton">
         <constraints>
-          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Generate Grouped Vulnerabilities CSV"/>
-        </properties>
-      </component>
-      <component id="4b546" class="javax.swing.JButton" binding="lowSev">
-        <constraints>
-          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Show Average Line Number for Low Severity"/>
-        </properties>
-      </component>
-      <component id="2e014" class="javax.swing.JButton" binding="mediumSev">
-        <constraints>
-          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Show Average Line Number for Medium Severity"/>
-        </properties>
-      </component>
-      <component id="eee44" class="javax.swing.JButton" binding="highSev">
-        <constraints>
-          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Show Average Line Number for High Severity"/>
-        </properties>
-      </component>
-      <component id="57313" class="javax.swing.JButton" binding="showTableByFile">
-        <constraints>
-          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Show Table Sorted By File"/>
-        </properties>
-      </component>
-      <component id="12380" class="javax.swing.JButton" binding="lineNoIssueSev">
-        <constraints>
-          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Show Line Number vs Issue Severity"/>
+          <text value="Load Repositories"/>
         </properties>
       </component>
     </children>

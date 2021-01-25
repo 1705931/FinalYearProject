@@ -2,6 +2,8 @@
 library('org.renjin.cran:rjson')
 #Load the plyr package for grouping data
 library('org.renjin.cran:plyr')
+#Load the tibble package for printing reusult more neatly
+library('org.renjin.cran:tibble')
 
 json_data <- fromJSON(file = inputData)
 results <- json_data$results
@@ -22,6 +24,8 @@ summary_table <- ddply(results_df_formatted,c("test_id", "issue_severity"),
                     function(df1)paste(df1$line_number,
                                        collapse = ","))
 colnames(summary_table) <- c("test_id", "issue_severity", "line_numbers")
+#Convert summary table to a tibble
+summary_table <- as_tibble(summary_table)
 #Group line numbers by issue_severity
 line_no_table <- ddply(results_df_formatted,"issue_severity",
                    function(df1)paste(df1$line_number,
@@ -36,12 +40,18 @@ filename_table <- ddply(results_df_formatted, "filename",
                                          collapse = ",")))
 colnames(line_no_table) <- c("issue_severity", "line_numbers")
 colnames(filename_table) <- c("filename","issue_severities","line_numbers","test_ids")
+#Convert filename table to a tibble
+filename_table <- as_tibble(filename_table)
 #Create a table of issue severity and line number
 issue_sev_vs_line_no <- table(results_df_formatted$issue_severity, results_df_formatted$line_number)
+#Convert line number vs issue severity table into a tibble
+issue_sev_vs_line_no <- as_tibble(issue_sev_vs_line_no)
 #Put the different issue severities in separate lists
 low_sev <- line_no_table[line_no_table$issue_severity=="LOW",]
 medium_sev <- line_no_table[line_no_table$issue_severity=="MEDIUM",]
 high_sev <- line_no_table[line_no_table$issue_severity=="HIGH",]
+#Convert line number table into a tibble
+line_no_table <- as_tibble(line_no_table)
 #Convert each comma-separated value into integer
 int_low_sev <- as.integer(unlist(strsplit(low_sev$line_numbers, ",")))
 int_medium_sev <- as.integer(unlist(strsplit(medium_sev$line_numbers, ",")))
