@@ -1,0 +1,147 @@
+{
+  "errors": [
+    {
+      "filename": "server\\storage\\rocksdb\\mysql-test\\rocksdb\\t\\check_log_for_xa.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "server\\storage\\rocksdb\\mysql-test\\rocksdb\\t\\rocksdb_concurrent_insert.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "server\\storage\\rocksdb\\mysql-test\\rocksdb\\t\\rocksdb_deadlock_stress.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "server\\storage\\rocksdb\\mysql-test\\rocksdb_stress\\t\\load_generator.py",
+      "reason": "syntax error while parsing AST from file"
+    }
+  ],
+  "generated_at": "2021-01-26T16:37:47Z",
+  "metrics": {
+    "_totals": {
+      "CONFIDENCE.HIGH": 4.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 2.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 1570,
+      "nosec": 0
+    },
+    "server\\debian\\additions\\source_mariadb-10.6.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 48,
+      "nosec": 0
+    },
+    "server\\storage\\mroonga\\vendor\\groonga\\bindings\\python\\ql\\setup.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 17,
+      "nosec": 0
+    },
+    "server\\storage\\rocksdb\\myrocks_hotbackup.py": {
+      "CONFIDENCE.HIGH": 4.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 2.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 581,
+      "nosec": 0
+    },
+    "server\\storage\\rocksdb\\mysql-test\\rocksdb\\t\\check_log_for_xa.py": {
+      "loc": 25,
+      "nosec": 0
+    },
+    "server\\storage\\rocksdb\\mysql-test\\rocksdb\\t\\rocksdb_concurrent_insert.py": {
+      "loc": 85,
+      "nosec": 0
+    },
+    "server\\storage\\rocksdb\\mysql-test\\rocksdb\\t\\rocksdb_deadlock_stress.py": {
+      "loc": 83,
+      "nosec": 0
+    },
+    "server\\storage\\rocksdb\\mysql-test\\rocksdb_stress\\t\\load_generator.py": {
+      "loc": 731,
+      "nosec": 0
+    }
+  },
+  "results": [
+    {
+      "code": "10 import re\n11 import subprocess\n12 import logging\n",
+      "filename": "server\\storage\\rocksdb\\myrocks_hotbackup.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "58   def write(self, file_name):\n59     rc= os.system(self.stream_cmd + \" \" + file_name)\n60     if (rc != 0):\n",
+      "filename": "server\\storage\\rocksdb\\myrocks_hotbackup.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 59,
+      "line_range": [
+        59
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "488       server_log = tempfile.TemporaryFile()\n489       remote_process = subprocess.Popen(remote_cmd.split(),\n490                                         stdout=subprocess.PIPE,\n491                                         stderr=server_log)\n492       wdt_url = remote_process.stdout.readline().strip()\n",
+      "filename": "server\\storage\\rocksdb\\myrocks_hotbackup.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 489,
+      "line_range": [
+        489,
+        490,
+        491
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "504                    opts.extra_wdt_sender_options)\n505       sender_status = os.system(sender_cmd) >> 8\n506       remote_status = remote_process.wait()\n",
+      "filename": "server\\storage\\rocksdb\\myrocks_hotbackup.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 505,
+      "line_range": [
+        505
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    }
+  ]
+}

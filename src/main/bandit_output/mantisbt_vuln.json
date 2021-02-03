@@ -1,0 +1,774 @@
+{
+  "errors": [],
+  "generated_at": "2021-01-26T16:33:52Z",
+  "metrics": {
+    "_totals": {
+      "CONFIDENCE.HIGH": 49.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 16.0,
+      "SEVERITY.LOW": 33.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 626,
+      "nosec": 0
+    },
+    "mantisbt\\build\\buildrelease-repo.py": {
+      "CONFIDENCE.HIGH": 21.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 4.0,
+      "SEVERITY.LOW": 17.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 147,
+      "nosec": 0
+    },
+    "mantisbt\\build\\buildrelease.py": {
+      "CONFIDENCE.HIGH": 6.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 5.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 190,
+      "nosec": 0
+    },
+    "mantisbt\\build\\docbook-manual-repo.py": {
+      "CONFIDENCE.HIGH": 12.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 4.0,
+      "SEVERITY.LOW": 8.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 133,
+      "nosec": 0
+    },
+    "mantisbt\\build\\docbook-manual.py": {
+      "CONFIDENCE.HIGH": 10.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 3.0,
+      "SEVERITY.LOW": 7.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 156,
+      "nosec": 0
+    }
+  },
+  "results": [
+    {
+      "code": "7 import shutil\n8 import subprocess\n9 import sys\n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 8,
+      "line_range": [
+        8
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "125         ret = subprocess.call('git clone {} {}'.format(clone_url, repo_path),\n126                               shell=True)\n127         if ret != 0:\n128             print(\"ERROR: clone failed\")\n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 126,
+      "line_range": [
+        125,
+        126
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "136     if not fresh_clone:\n137         os.system('git fetch')\n138 \n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 137,
+      "line_range": [
+        137
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "136     if not fresh_clone:\n137         os.system('git fetch')\n138 \n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 137,
+      "line_range": [
+        137
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "140     if all_branches:\n141         os.system('git remote prune origin')\n142         cmd = 'git for-each-ref --format=\"%(refname:short)\" refs/remotes'\n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 141,
+      "line_range": [
+        141
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "140     if all_branches:\n141         os.system('git remote prune origin')\n142         cmd = 'git for-each-ref --format=\"%(refname:short)\" refs/remotes'\n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 141,
+      "line_range": [
+        141
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "142         cmd = 'git for-each-ref --format=\"%(refname:short)\" refs/remotes'\n143         refs.extend(os.popen(cmd).read().split())\n144 \n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 143,
+      "line_range": [
+        143
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "145     if len(refs) < 1:\n146         refs.append(os.popen('git log --pretty=\"format:%h\" -n1').read())\n147 \n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 146,
+      "line_range": [
+        146
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "145     if len(refs) < 1:\n146         refs.append(os.popen('git log --pretty=\"format:%h\" -n1').read())\n147 \n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 146,
+      "line_range": [
+        146
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "159         print(\"\\nChecking out '{}'\".format(ref))\n160         os.system(\"git checkout -f -q {}\".format(ref))\n161         os.system(\"git log -n1 --pretty='HEAD is now at %h... %s'\")\n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 160,
+      "line_range": [
+        160
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "160         os.system(\"git checkout -f -q {}\".format(ref))\n161         os.system(\"git log -n1 --pretty='HEAD is now at %h... %s'\")\n162         print()\n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 161,
+      "line_range": [
+        161
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "160         os.system(\"git checkout -f -q {}\".format(ref))\n161         os.system(\"git log -n1 --pretty='HEAD is now at %h... %s'\")\n162         print()\n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 161,
+      "line_range": [
+        161
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "166             print(\"Installing Composer packages\")\n167             if subprocess.call(\n168                     'composer install --no-plugins --no-scripts --no-dev',\n169                     shell=True):\n170                 continue\n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 167,
+      "line_range": [
+        167,
+        168,
+        169
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "168                     'composer install --no-plugins --no-scripts --no-dev',\n169                     shell=True):\n170                 continue\n171             print()\n172 \n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 169,
+      "line_range": [
+        167,
+        168,
+        169
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "174         print(\"Updating submodules\")\n175         subprocess.call('git submodule update --init', shell=True)\n176         subprocess.call('git submodule foreach git checkout -- .', shell=True)\n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 175,
+      "line_range": [
+        175
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "174         print(\"Updating submodules\")\n175         subprocess.call('git submodule update --init', shell=True)\n176         subprocess.call('git submodule foreach git checkout -- .', shell=True)\n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 175,
+      "line_range": [
+        175
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "175         subprocess.call('git submodule update --init', shell=True)\n176         subprocess.call('git submodule foreach git checkout -- .', shell=True)\n177 \n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 176,
+      "line_range": [
+        176
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "175         subprocess.call('git submodule update --init', shell=True)\n176         subprocess.call('git submodule foreach git checkout -- .', shell=True)\n177 \n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 176,
+      "line_range": [
+        176
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "178         # Handle suffix/auto-suffix generation\n179         hash = os.popen('git log --pretty=\"format:%h\" -n1').read()\n180         if hash != ref:\n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 179,
+      "line_range": [
+        179
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "178         # Handle suffix/auto-suffix generation\n179         hash = os.popen('git log --pretty=\"format:%h\" -n1').read()\n180         if hash != ref:\n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 179,
+      "line_range": [
+        179
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "202         # Start building\n203         os.system(\"{} {} {} {} {}\".format(buildscript, pass_opts, suffix,\n204                                           release_path, repo_path))\n205 \n",
+      "filename": "mantisbt\\build\\buildrelease-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 203,
+      "line_range": [
+        203,
+        204
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "8 import shutil\n9 import subprocess\n10 import sys\n",
+      "filename": "mantisbt\\build\\buildrelease.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 9,
+      "line_range": [
+        9
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "66     try:\n67         subprocess.check_call(gpgsign.format('--batch --yes '), shell=True)\n68     except subprocess.CalledProcessError:\n",
+      "filename": "mantisbt\\build\\buildrelease.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 67,
+      "line_range": [
+        67
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "202     )\n203     subprocess.check_call(rsync, shell=True)\n204 \n",
+      "filename": "mantisbt\\build\\buildrelease.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 203,
+      "line_range": [
+        203
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "219             ),\n220             shell=True\n221         )\n222 \n223     # Build documentation for release\n224     if build_docbook:\n225         print(\"Building docbook manuals...\\n\")\n226         subprocess.call(\n",
+      "filename": "mantisbt\\build\\buildrelease.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 220,
+      "line_range": [
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "230             ),\n231             shell=True\n232         )\n233 \n234     # Create tarballs and sign them\n235     print(\"Creating release tarballs...\")\n236     os.chdir(release_path)\n237     tarball_ext = (\"tar.gz\", \"zip\")\n",
+      "filename": "mantisbt\\build\\buildrelease.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 231,
+      "line_range": [
+        226,
+        227,
+        228,
+        229,
+        230,
+        231
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "248 \n249         subprocess.call(tar_cmd.format(tarball, release_name), shell=True)\n250 \n",
+      "filename": "mantisbt\\build\\buildrelease.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 249,
+      "line_range": [
+        249
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "63     gitcmd = 'git symbolic-ref --quiet --short HEAD || git rev-parse HEAD'\n64     return os.popen(gitcmd).read().rstrip()\n65 \n",
+      "filename": "mantisbt\\build\\docbook-manual-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 64,
+      "line_range": [
+        64
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "67 def git_checkout(branch):\n68     os.system('git checkout -f {} >/dev/null'.format(branch))\n69 \n",
+      "filename": "mantisbt\\build\\docbook-manual-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 68,
+      "line_range": [
+        68
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "127         os.chdir(repo)\n128         os.system('git fetch')\n129         os.system('git remote prune origin')\n",
+      "filename": "mantisbt\\build\\docbook-manual-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 128,
+      "line_range": [
+        128
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "127         os.chdir(repo)\n128         os.system('git fetch')\n129         os.system('git remote prune origin')\n",
+      "filename": "mantisbt\\build\\docbook-manual-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 128,
+      "line_range": [
+        128
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "128         os.system('git fetch')\n129         os.system('git remote prune origin')\n130 \n",
+      "filename": "mantisbt\\build\\docbook-manual-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 129,
+      "line_range": [
+        129
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "128         os.system('git fetch')\n129         os.system('git remote prune origin')\n130 \n",
+      "filename": "mantisbt\\build\\docbook-manual-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 129,
+      "line_range": [
+        129
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "133         cmd = 'git for-each-ref --format=\"%(refname:short)\" refs/remotes'\n134         branches = os.popen(cmd).read().split()\n135         tags = os.popen('git tag -l').read().split()\n",
+      "filename": "mantisbt\\build\\docbook-manual-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 134,
+      "line_range": [
+        134
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "134         branches = os.popen(cmd).read().split()\n135         tags = os.popen('git tag -l').read().split()\n136 \n",
+      "filename": "mantisbt\\build\\docbook-manual-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 135,
+      "line_range": [
+        135
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "134         branches = os.popen(cmd).read().split()\n135         tags = os.popen('git tag -l').read().split()\n136 \n",
+      "filename": "mantisbt\\build\\docbook-manual-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 135,
+      "line_range": [
+        135
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "159         lastchange = int(\n160             os.popen('git log --pretty=\"format:%ct\" -n1 -- docbook').read())\n161 \n",
+      "filename": "mantisbt\\build\\docbook-manual-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 160,
+      "line_range": [
+        160
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "159         lastchange = int(\n160             os.popen('git log --pretty=\"format:%ct\" -n1 -- docbook').read())\n161 \n",
+      "filename": "mantisbt\\build\\docbook-manual-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 160,
+      "line_range": [
+        160
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "176             print(\"Calling: \" + buildcommand)\n177             if(os.system(buildcommand)):\n178                 print('here')\n",
+      "filename": "mantisbt\\build\\docbook-manual-repo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 177,
+      "line_range": [
+        177
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "8 import shutil\n9 import subprocess\n10 import sys\n",
+      "filename": "mantisbt\\build\\docbook-manual.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 9,
+      "line_range": [
+        9
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "134             print(\"Building manual in '{}'\\n\".format(builddir))\n135             os.system('publican clean')\n136             os.system('publican build --formats={} --langs={}'.format(\n",
+      "filename": "mantisbt\\build\\docbook-manual.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 135,
+      "line_range": [
+        135
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "134             print(\"Building manual in '{}'\\n\".format(builddir))\n135             os.system('publican clean')\n136             os.system('publican build --formats={} --langs={}'.format(\n",
+      "filename": "mantisbt\\build\\docbook-manual.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 135,
+      "line_range": [
+        135
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "135             os.system('publican clean')\n136             os.system('publican build --formats={} --langs={}'.format(\n137                       types[PUBLICAN], ','.join(langs)))\n138 \n",
+      "filename": "mantisbt\\build\\docbook-manual.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 136,
+      "line_range": [
+        136,
+        137
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "158                     print(rsync)\n159                     ret = subprocess.call(rsync, shell=True)\n160                     if ret != 0:\n",
+      "filename": "mantisbt\\build\\docbook-manual.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 159,
+      "line_range": [
+        159
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "174 \n175             os.system('publican clean')\n176             print(\"\\nBuild complete\\n\")\n",
+      "filename": "mantisbt\\build\\docbook-manual.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 175,
+      "line_range": [
+        175
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "174 \n175             os.system('publican clean')\n176             print(\"\\nBuild complete\\n\")\n",
+      "filename": "mantisbt\\build\\docbook-manual.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 175,
+      "line_range": [
+        175
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "194                 print(\"Building manual in '%s'\\n\".format(builddir))\n195                 os.system(\n196                     'make clean {} 2>&1 && '\n197                     'make INSTALL_DIR={} install 2>&1'\n198                     .format(types[MAKE], installdir)\n199                 )\n",
+      "filename": "mantisbt\\build\\docbook-manual.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 195,
+      "line_range": [
+        195,
+        196,
+        197,
+        198
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "199                 )\n200                 os.system('make clean 2>&1')\n201                 print(\"\\nBuild complete\\n\")\n",
+      "filename": "mantisbt\\build\\docbook-manual.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 200,
+      "line_range": [
+        200
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "199                 )\n200                 os.system('make clean 2>&1')\n201                 print(\"\\nBuild complete\\n\")\n",
+      "filename": "mantisbt\\build\\docbook-manual.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 200,
+      "line_range": [
+        200
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    }
+  ]
+}

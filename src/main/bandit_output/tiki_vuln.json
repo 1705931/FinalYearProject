@@ -1,11 +1,15 @@
 {
   "errors": [
     {
-      "filename": "bugzilla\\contrib\\jb2bz.py",
+      "filename": "tiki\\doc\\devtools\\add1tiki2multi.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "tiki\\doc\\devtools\\set_perms.py",
       "reason": "syntax error while parsing AST from file"
     }
   ],
-  "generated_at": "2021-01-03T15:16:27Z",
+  "generated_at": "2021-01-26T16:37:58Z",
   "metrics": {
     "_totals": {
       "CONFIDENCE.HIGH": 0.0,
@@ -16,14 +20,14 @@
       "SEVERITY.LOW": 0.0,
       "SEVERITY.MEDIUM": 0.0,
       "SEVERITY.UNDEFINED": 0.0,
-      "loc": 339,
+      "loc": 311,
       "nosec": 0
     },
-    "bugzilla\\contrib\\jb2bz.py": {
-      "loc": 250,
+    "tiki\\doc\\devtools\\add1tiki2multi.py": {
+      "loc": 198,
       "nosec": 0
     },
-    "bugzilla\\docs\\en\\rst\\conf.py": {
+    "tiki\\doc\\devtools\\generate_release_changelog.py": {
       "CONFIDENCE.HIGH": 0.0,
       "CONFIDENCE.LOW": 0.0,
       "CONFIDENCE.MEDIUM": 0.0,
@@ -32,7 +36,11 @@
       "SEVERITY.LOW": 0.0,
       "SEVERITY.MEDIUM": 0.0,
       "SEVERITY.UNDEFINED": 0.0,
-      "loc": 89,
+      "loc": 37,
+      "nosec": 0
+    },
+    "tiki\\doc\\devtools\\set_perms.py": {
+      "loc": 76,
       "nosec": 0
     }
   },

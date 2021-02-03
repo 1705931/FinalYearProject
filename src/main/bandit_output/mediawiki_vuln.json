@@ -1,0 +1,74 @@
+{
+  "errors": [],
+  "generated_at": "2021-01-26T16:34:01Z",
+  "metrics": {
+    "_totals": {
+      "CONFIDENCE.HIGH": 3.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 1.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 1.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 357,
+      "nosec": 0
+    },
+    "mediawiki\\maintenance\\language\\zhtable\\Makefile.py": {
+      "CONFIDENCE.HIGH": 3.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 1.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 1.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 357,
+      "nosec": 0
+    }
+  },
+  "results": [
+    {
+      "code": "54         # because wget could display details like download progress\n55         os.system('wget %s -O %s' % (url, dest))\n56     else:\n",
+      "filename": "mediawiki\\maintenance\\language\\zhtable\\Makefile.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 55,
+      "line_range": [
+        55
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "57         print('Downloading from [%s] ...' % url)\n58         urllib_request.urlretrieve(url, dest)\n59         print('Download complete.\\n')\n",
+      "filename": "mediawiki\\maintenance\\language\\zhtable\\Makefile.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 58,
+      "line_range": [
+        58
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "201                 table.pop(f)\n202             except:\n203                 pass\n",
+      "filename": "mediawiki\\maintenance\\language\\zhtable\\Makefile.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 202,
+      "line_range": [
+        202
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    }
+  ]
+}

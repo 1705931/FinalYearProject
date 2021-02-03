@@ -10,17 +10,23 @@ json_data <- fromJSON(file = inputData)
 results <- json_data$results
 #Collect the metrics from the metrics part of the json file
 metrics <- json_data$metrics
+#Create a dataframe from the results and the metrics
+results_df<-as.data.frame(do.call("cbind", results))
+metrics_df<-as.data.frame(do.call("cbind", metrics))
+#Switch the rows and columns, so that every new record appears as a row and not a column
+results_df_new <- as.data.frame(t(results_df))
+metrics_df_new <- as.data.frame(t(metrics_df))
 #Calculate the total of files scanned in the repository, the -1 is
 #needed because the first element in the json file shows total metrics
 files_scanned <- length(metrics)-1
 #Calculate the total of issues found
 issues_found <- length(results)
-#Create a simple character array to store number of files scanned and number of issues
-no_of_issues <- c("Files Scanned: ", files_scanned, "Issues Found: ", issues_found)
-#Create a dataframe from the results
-results_df<-as.data.frame(do.call("cbind", results))
-#Switch the rows and columns, so that every new record appears as a row and not a column
-results_df_new <- as.data.frame(t(results_df))
+#Calculate the total of the lines of code in a repository
+loc_in_repo <- metrics_df_new$loc["_totals"]
+
+#Create a simple character array to store number of files scanned and the total of loc and issues found
+# no_of_issues <- c("Files Scanned: ", files_scanned, "Lines of Code: ", loc_in_repo, "Issues Found: ", issues_found)
+
 #set the headings for the dataframe
 headings <- c("filename", "issue_severity", "line_number", "test_id")
 results_df_formatted <- results_df_new[headings]
@@ -55,9 +61,9 @@ colnames(filename_table) <- c("filename","issue_severities","line_numbers","test
 #Convert filename table to a tibble
 filename_table <- as_tibble(filename_table)
 #Create a table of issue severity and line number
-issue_sev_vs_line_no <- table(results_df_formatted$issue_severity, results_df_formatted$line_number)
+issue_sev_vs_line_no <- table(results_df_formatted$line_number, results_df_formatted$issue_severity)
 #Convert line number vs issue severity table into a tibble
-issue_sev_vs_line_no <- as_tibble(issue_sev_vs_line_no)
+# issue_sev_vs_line_no <- as_tibble(issue_sev_vs_line_no)
 #Put the different issue severities in separate lists
 low_sev <- line_no_table[line_no_table$issue_severity=="LOW",]
 medium_sev <- line_no_table[line_no_table$issue_severity=="MEDIUM",]

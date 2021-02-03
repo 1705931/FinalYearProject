@@ -1,0 +1,133 @@
+{
+  "errors": [
+    {
+      "filename": "webmin\\ajaxterm\\ajaxterm\\ajaxterm.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "webmin\\ajaxterm\\ajaxterm\\qweb.py",
+      "reason": "syntax error while parsing AST from file"
+    }
+  ],
+  "generated_at": "2021-01-26T16:38:54Z",
+  "metrics": {
+    "_totals": {
+      "CONFIDENCE.HIGH": 6.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 4.0,
+      "SEVERITY.MEDIUM": 2.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 1855,
+      "nosec": 0
+    },
+    "webmin\\ajaxterm\\ajaxterm\\ajaxterm.py": {
+      "loc": 532,
+      "nosec": 0
+    },
+    "webmin\\ajaxterm\\ajaxterm\\qweb.py": {
+      "loc": 1169,
+      "nosec": 0
+    },
+    "webmin\\webmin\\acme_tiny.py": {
+      "CONFIDENCE.HIGH": 6.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 4.0,
+      "SEVERITY.MEDIUM": 2.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 154,
+      "nosec": 0
+    }
+  },
+  "results": [
+    {
+      "code": "2 # Copyright Daniel Roesler, under MIT license, see LICENSE at github.com/diafygi/acme-tiny\n3 import argparse, subprocess, json, os, sys, base64, binascii, time, hashlib, re, copy, textwrap, logging\n4 try:\n",
+      "filename": "webmin\\webmin\\acme_tiny.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 3,
+      "line_range": [
+        3
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "24     def _cmd(cmd_list, stdin=None, cmd_input=None, err_msg=\"Command Line Error\"):\n25         proc = subprocess.Popen(cmd_list, stdin=stdin, stdout=subprocess.PIPE, stderr=subprocess.PIPE)\n26         out, err = proc.communicate(cmd_input)\n",
+      "filename": "webmin\\webmin\\acme_tiny.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 25,
+      "line_range": [
+        25
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "33         try:\n34             resp = urlopen(Request(url, data=data, headers={\"Content-Type\": \"application/jose+json\", \"User-Agent\": \"acme-tiny\"}))\n35             resp_data, code, headers = resp.read().decode(\"utf8\"), resp.getcode(), resp.headers\n",
+      "filename": "webmin\\webmin\\acme_tiny.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 34,
+      "line_range": [
+        34
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "33         try:\n34             resp = urlopen(Request(url, data=data, headers={\"Content-Type\": \"application/jose+json\", \"User-Agent\": \"acme-tiny\"}))\n35             resp_data, code, headers = resp.read().decode(\"utf8\"), resp.getcode(), resp.headers\n",
+      "filename": "webmin\\webmin\\acme_tiny.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 34,
+      "line_range": [
+        34
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "67         while result is None or result['status'] in pending_statuses:\n68             assert (time.time() - t0 < 3600), \"Polling timeout\" # 1 hour timeout\n69             time.sleep(0 if result is None else 2)\n",
+      "filename": "webmin\\webmin\\acme_tiny.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 68,
+      "line_range": [
+        68
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "140             wellknown_url = \"http://{0}/.well-known/acme-challenge/{1}\".format(domain, token)\n141             assert (disable_check or _do_request(wellknown_url)[0] == keyauthorization)\n142         except (AssertionError, ValueError) as e:\n",
+      "filename": "webmin\\webmin\\acme_tiny.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 141,
+      "line_range": [
+        141
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    }
+  ]
+}

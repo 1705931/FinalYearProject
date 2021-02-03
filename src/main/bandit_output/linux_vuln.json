@@ -1,0 +1,4764 @@
+{
+  "errors": [
+    {
+      "filename": "linux\\Documentation\\target\\tcm_mod_builder.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "linux\\Documentation\\trace\\postprocess\\decode_msr.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "linux\\tools\\perf\\python\\tracepoint.py",
+      "reason": "syntax error while parsing AST from file"
+    }
+  ],
+  "generated_at": "2021-01-26T16:34:52Z",
+  "metrics": {
+    "_totals": {
+      "CONFIDENCE.HIGH": 236.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 33.0,
+      "SEVERITY.LOW": 194.0,
+      "SEVERITY.MEDIUM": 9.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 27549,
+      "nosec": 0
+    },
+    "linux\\Documentation\\conf.py": {
+      "CONFIDENCE.HIGH": 4.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 4.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 226,
+      "nosec": 0
+    },
+    "linux\\Documentation\\networking\\device_drivers\\atm\\cxacru-cf.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 16,
+      "nosec": 0
+    },
+    "linux\\Documentation\\sphinx\\automarkup.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 139,
+      "nosec": 0
+    },
+    "linux\\Documentation\\sphinx\\cdomain.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 166,
+      "nosec": 0
+    },
+    "linux\\Documentation\\sphinx\\kernel_include.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 142,
+      "nosec": 0
+    },
+    "linux\\Documentation\\sphinx\\kerneldoc.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 119,
+      "nosec": 0
+    },
+    "linux\\Documentation\\sphinx\\kernellog.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 17,
+      "nosec": 0
+    },
+    "linux\\Documentation\\sphinx\\kfigure.py": {
+      "CONFIDENCE.HIGH": 4.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 3.0,
+      "SEVERITY.MEDIUM": 1.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 394,
+      "nosec": 0
+    },
+    "linux\\Documentation\\sphinx\\load_config.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 40,
+      "nosec": 0
+    },
+    "linux\\Documentation\\sphinx\\maintainers_include.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 121,
+      "nosec": 0
+    },
+    "linux\\Documentation\\sphinx\\rstFlatTable.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 260,
+      "nosec": 0
+    },
+    "linux\\Documentation\\target\\tcm_mod_builder.py": {
+      "loc": 522,
+      "nosec": 0
+    },
+    "linux\\Documentation\\trace\\postprocess\\decode_msr.py": {
+      "loc": 28,
+      "nosec": 0
+    },
+    "linux\\Documentation\\userspace-api\\media\\conf_nitpick.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 89,
+      "nosec": 0
+    },
+    "linux\\arch\\ia64\\scripts\\unwcheck.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 1.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 45,
+      "nosec": 0
+    },
+    "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\convert_csv_to_c.py": {
+      "CONFIDENCE.HIGH": 6.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 4.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 395,
+      "nosec": 0
+    },
+    "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\convert_py_to_csv.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 44,
+      "nosec": 0
+    },
+    "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\csv_collection.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 31,
+      "nosec": 0
+    },
+    "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\make_blank_csv.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 20,
+      "nosec": 0
+    },
+    "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\ni_names.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 37,
+      "nosec": 0
+    },
+    "linux\\scripts\\bpf_helpers_doc.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 494,
+      "nosec": 0
+    },
+    "linux\\scripts\\checkkconfigsymbols.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 350,
+      "nosec": 0
+    },
+    "linux\\scripts\\clang-tools\\gen_compile_commands.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 163,
+      "nosec": 0
+    },
+    "linux\\scripts\\clang-tools\\run-clang-tools.py": {
+      "CONFIDENCE.HIGH": 3.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 3.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 51,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\__init__.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 0,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\clk.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 51,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\config.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 29,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\cpus.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 113,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\device.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 127,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\dmesg.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 96,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\genpd.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 61,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\lists.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 98,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\modules.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 56,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\proc.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 177,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\rbtree.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 113,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\symbols.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 133,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\tasks.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 85,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\timerlist.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 167,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\linux\\utils.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 130,
+      "nosec": 0
+    },
+    "linux\\scripts\\gdb\\vmlinux-gdb.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 24,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\auto_submenu\\__init__.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 9,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\choice\\__init__.py": {
+      "CONFIDENCE.HIGH": 12.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 12.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 26,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\choice_value_with_m_dep\\__init__.py": {
+      "CONFIDENCE.HIGH": 3.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 3.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 11,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\conftest.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 202,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\err_recursive_dep\\__init__.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 7,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\err_recursive_inc\\__init__.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 7,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\inter_choice\\__init__.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 10,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\new_choice_with_dep\\__init__.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 10,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\no_write_if_dep_unmet\\__init__.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 13,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\preprocess\\builtin_func\\__init__.py": {
+      "CONFIDENCE.HIGH": 3.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 3.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 7,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\preprocess\\circular_expansion\\__init__.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 8,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\preprocess\\escape\\__init__.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 6,
+      "nosec": 0
+    },
+    "linux\\scripts\\kconfig\\tests\\preprocess\\variable\\__init__.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 6,
+      "nosec": 0
+    },
+    "linux\\scripts\\spdxcheck.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 227,
+      "nosec": 0
+    },
+    "linux\\scripts\\tracing\\draw_functrace.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 104,
+      "nosec": 0
+    },
+    "linux\\tools\\cgroup\\iocost_coef_gen.py": {
+      "CONFIDENCE.HIGH": 7.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 6.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 145,
+      "nosec": 0
+    },
+    "linux\\tools\\cgroup\\iocost_monitor.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 221,
+      "nosec": 0
+    },
+    "linux\\tools\\cgroup\\memcg_slabinfo.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 162,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\python\\tracepoint.py": {
+      "loc": 36,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\python\\twatch.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 44,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\Perf-Trace-Util\\lib\\Perf\\Trace\\Core.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 82,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\Perf-Trace-Util\\lib\\Perf\\Trace\\EventClass.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 57,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\Perf-Trace-Util\\lib\\Perf\\Trace\\SchedGui.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 132,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\Perf-Trace-Util\\lib\\Perf\\Trace\\Util.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 70,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\check-perf-trace.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 55,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\compaction-times.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 244,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\event_analyzing_sample.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 112,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\export-to-postgresql.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 812,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\export-to-sqlite.py": {
+      "CONFIDENCE.HIGH": 3.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 3.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 645,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\exported-sql-viewer.py": {
+      "CONFIDENCE.HIGH": 11.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 8.0,
+      "SEVERITY.MEDIUM": 3.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 3944,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\failed-syscalls-by-pid.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 56,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\flamegraph.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 93,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\futex-contention.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 33,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\intel-pt-events.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 100,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\mem-phys-addr.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 74,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\net_dropmonitor.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 55,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\netdev-times.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 396,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\powerpc-hcalls.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 167,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\sched-migration.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 346,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\sctop.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 64,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\stackcollapse.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 82,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\stat-cpi.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 44,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\syscall-counts-by-pid.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 53,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\scripts\\python\\syscall-counts.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 43,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\tests\\attr.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 1.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 290,
+      "nosec": 0
+    },
+    "linux\\tools\\perf\\util\\setup.py": {
+      "CONFIDENCE.HIGH": 3.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 3.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 68,
+      "nosec": 0
+    },
+    "linux\\tools\\power\\pm-graph\\bootgraph.py": {
+      "CONFIDENCE.HIGH": 13.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 3.0,
+      "SEVERITY.LOW": 10.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 935,
+      "nosec": 0
+    },
+    "linux\\tools\\power\\pm-graph\\sleepgraph.py": {
+      "CONFIDENCE.HIGH": 30.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 11.0,
+      "SEVERITY.LOW": 19.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 6137,
+      "nosec": 0
+    },
+    "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py": {
+      "CONFIDENCE.HIGH": 19.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 2.0,
+      "SEVERITY.LOW": 17.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 478,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\kunit\\kunit.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 284,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\kunit\\kunit_config.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 63,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\kunit\\kunit_json.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 48,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\kunit\\kunit_kernel.py": {
+      "CONFIDENCE.HIGH": 11.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 11.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 157,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\kunit\\kunit_parser.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 303,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\kunit\\kunit_tool_test.py": {
+      "CONFIDENCE.HIGH": 24.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 24.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 320,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\bpf\\tcp_client.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 37,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\bpf\\tcp_server.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 1.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 61,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\bpf\\test_bpftool.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 130,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\bpf\\test_offload.py": {
+      "CONFIDENCE.HIGH": 3.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 1.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 1130,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\drivers\\net\\mlxsw\\sharedbuffer_configuration.py": {
+      "CONFIDENCE.HIGH": 5.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 1.0,
+      "SEVERITY.LOW": 4.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 298,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\net\\devlink_port_split.py": {
+      "CONFIDENCE.HIGH": 7.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 1.0,
+      "SEVERITY.LOW": 6.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 189,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\TdcPlugin.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 47,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\TdcResults.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 109,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\buildebpfPlugin.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 1.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 53,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\nsPlugin.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 1.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 133,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\rootPlugin.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 13,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\scapyPlugin.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 1.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 41,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\valgrindPlugin.py": {
+      "CONFIDENCE.HIGH": 3.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 3.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 130,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\plugins\\__init__.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 0,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\tdc.py": {
+      "CONFIDENCE.HIGH": 4.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 2.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 656,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\tdc_batch.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 92,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\tdc_config.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 26,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\tdc_config_local_template.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 13,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\tdc_helper.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 52,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tc-testing\\tdc_multibatch.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 1.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 58,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tpm2\\tpm2.py": {
+      "CONFIDENCE.HIGH": 4.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 4.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 582,
+      "nosec": 0
+    },
+    "linux\\tools\\testing\\selftests\\tpm2\\tpm2_tests.py": {
+      "CONFIDENCE.HIGH": 4.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 4.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 227,
+      "nosec": 0
+    }
+  },
+  "results": [
+    {
+      "code": "18 \n19 from subprocess import check_output\n20 \n21 # Get Sphinx version\n22 major, minor, patch = sphinx.version_info[:3]\n",
+      "filename": "linux\\Documentation\\conf.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with check_output module.",
+      "line_number": 19,
+      "line_range": [
+        19,
+        20,
+        21
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "164             break\n165 except:\n166     pass\n",
+      "filename": "linux\\Documentation\\conf.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 165,
+      "line_range": [
+        165
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "363 \n364 cjk_cmd = check_output(['fc-list', '--format=\"%{family[0]}\\n\"']).decode('utf-8', 'ignore')\n365 if cjk_cmd.find(\"Noto Sans CJK SC\") >= 0:\n",
+      "filename": "linux\\Documentation\\conf.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 364,
+      "line_range": [
+        364
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "363 \n364 cjk_cmd = check_output(['fc-list', '--format=\"%{family[0]}\\n\"']).decode('utf-8', 'ignore')\n365 if cjk_cmd.find(\"Noto Sans CJK SC\") >= 0:\n",
+      "filename": "linux\\Documentation\\conf.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 364,
+      "line_range": [
+        364
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "31 import os\n32 import subprocess\n33 import sys\n",
+      "filename": "linux\\Documentation\\sphinx\\kerneldoc.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 32,
+      "line_range": [
+        32
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "124 \n125             p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)\n126             out, err = p.communicate()\n",
+      "filename": "linux\\Documentation\\sphinx\\kerneldoc.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 125,
+      "line_range": [
+        125
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "49 from os import path\n50 import subprocess\n51 from hashlib import sha1\n",
+      "filename": "linux\\Documentation\\sphinx\\kfigure.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 50,
+      "line_range": [
+        50
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "310     with open(out_fname, \"w\") as out:\n311         exit_code = subprocess.call(cmd, stdout = out)\n312         if exit_code != 0:\n",
+      "filename": "linux\\Documentation\\sphinx\\kfigure.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 311,
+      "line_range": [
+        311
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "328     # use stdout and stderr from parent\n329     exit_code = subprocess.call(cmd)\n330     if exit_code != 0:\n",
+      "filename": "linux\\Documentation\\sphinx\\kfigure.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 329,
+      "line_range": [
+        329
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "438     hashobj   = code.encode('utf-8') #  str(node.attributes)\n439     fname     = path.join('%s-%s' % (srclang, sha1(hashobj).hexdigest()))\n440 \n",
+      "filename": "linux\\Documentation\\sphinx\\kfigure.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of insecure MD2, MD4, MD5, or SHA1 hash function.",
+      "line_number": 439,
+      "line_range": [
+        439
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5",
+      "test_id": "B303",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "264                         self.rows[y].insert(x+c+1, None)\n265                     except: # pylint: disable=W0702\n266                         # the user sets ambiguous rowspans\n",
+      "filename": "linux\\Documentation\\sphinx\\rstFlatTable.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 265,
+      "line_range": [
+        265
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "272                             self.rows[y+r+1].insert(x+c, None)\n273                         except: # pylint: disable=W0702\n274                             # the user sets ambiguous rowspans\n",
+      "filename": "linux\\Documentation\\sphinx\\rstFlatTable.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 273,
+      "line_range": [
+        273
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "39 rlen_sum = 0\n40 for line in os.popen(\"%s -u %s\" % (readelf, sys.argv[1])):\n41     m = start_pattern.match(line)\n",
+      "filename": "linux\\arch\\ia64\\scripts\\unwcheck.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 40,
+      "line_range": [
+        40
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "40 \n41   D0 = sorted(D0.items(), key=lambda i: eval(i[0], comedi_h.__dict__, Locals))\n42 \n",
+      "filename": "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\convert_csv_to_c.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 41,
+      "line_range": [
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "43   for D0_sig, D1_D in D0:\n44     D1 = sorted(D1_D.items(), key=lambda i: eval(i[0], comedi_h.__dict__, Locals))\n45 \n",
+      "filename": "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\convert_csv_to_c.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 44,
+      "line_range": [
+        44
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "89   # Sort by order of device-global names (numerically)\n90   D0 = sorted(D0.items(), key=lambda i: eval(i[0], comedi_h.__dict__, Locals))\n91 \n",
+      "filename": "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\convert_csv_to_c.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 90,
+      "line_range": [
+        90
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "96     D1 = [ k for k,v in D1_D.items() if v ]\n97     D1.sort(key=lambda i: eval(i, comedi_h.__dict__, Locals))\n98 \n",
+      "filename": "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\convert_csv_to_c.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 97,
+      "line_range": [
+        97
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "285       os.makedirs(os.path.join(self.OUTPUT_DIR, self.ITEMS_DIR))\n286     except:\n287       pass\n",
+      "filename": "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\convert_csv_to_c.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 286,
+      "line_range": [
+        286
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "477       os.makedirs(os.path.join(self.OUTPUT_DIR, self.ITEMS_DIR))\n478     except:\n479       pass\n",
+      "filename": "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\convert_csv_to_c.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 478,
+      "line_range": [
+        478
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "55       os.makedirs(path.join(CSV_DIR,d))\n56     except:\n57       pass\n",
+      "filename": "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\convert_py_to_csv.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 56,
+      "line_range": [
+        56
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "15     os.makedirs(CSV_DIR)\n16   except:\n17     pass\n",
+      "filename": "linux\\drivers\\staging\\comedi\\drivers\\ni_routing\\tools\\make_blank_csv.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 16,
+      "line_range": [
+        16
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "15 import signal\n16 import subprocess\n17 import sys\n",
+      "filename": "linux\\scripts\\checkkconfigsymbols.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 16,
+      "line_range": [
+        16
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "226     try:\n227         stdout = subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=False)\n228         stdout = stdout.decode(errors='replace')\n",
+      "filename": "linux\\scripts\\checkkconfigsymbols.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 227,
+      "line_range": [
+        227
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "14 import re\n15 import subprocess\n16 \n17 _DEFAULT_OUTPUT = 'compile_commands.json'\n",
+      "filename": "linux\\scripts\\clang-tools\\gen_compile_commands.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 15,
+      "line_range": [
+        15,
+        16
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "127     \"\"\"\n128     for obj in subprocess.check_output([ar, '-t', archive]).decode().split():\n129         yield to_cmdfile(obj)\n",
+      "filename": "linux\\scripts\\clang-tools\\gen_compile_commands.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 128,
+      "line_range": [
+        128
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "15 import os\n16 import subprocess\n17 import sys\n",
+      "filename": "linux\\scripts\\clang-tools\\run-clang-tools.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 16,
+      "line_range": [
+        16
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "53         checks += \"clang-analyzer-*\"\n54     p = subprocess.run([\"clang-tidy\", \"-p\", args.path, checks, entry[\"file\"]],\n55                        stdout=subprocess.PIPE,\n56                        stderr=subprocess.STDOUT,\n57                        cwd=entry[\"directory\"])\n58     with lock:\n",
+      "filename": "linux\\scripts\\clang-tools\\run-clang-tools.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 54,
+      "line_range": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "53         checks += \"clang-analyzer-*\"\n54     p = subprocess.run([\"clang-tidy\", \"-p\", args.path, checks, entry[\"file\"]],\n55                        stdout=subprocess.PIPE,\n56                        stderr=subprocess.STDOUT,\n57                        cwd=entry[\"directory\"])\n58     with lock:\n",
+      "filename": "linux\\scripts\\clang-tools\\run-clang-tools.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 54,
+      "line_range": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "11 def test(conf):\n12     assert conf.oldaskconfig() == 0\n13     assert conf.stdout_contains('expected_stdout')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\auto_submenu\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "12     assert conf.oldaskconfig() == 0\n13     assert conf.stdout_contains('expected_stdout')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\auto_submenu\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 13,
+      "line_range": [
+        13
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "14 def test_oldask0(conf):\n15     assert conf.oldaskconfig() == 0\n16     assert conf.stdout_contains('oldask0_expected_stdout')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 15,
+      "line_range": [
+        15
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "15     assert conf.oldaskconfig() == 0\n16     assert conf.stdout_contains('oldask0_expected_stdout')\n17 \n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 16,
+      "line_range": [
+        16
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "19 def test_oldask1(conf):\n20     assert conf.oldaskconfig('oldask1_config') == 0\n21     assert conf.stdout_contains('oldask1_expected_stdout')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 20,
+      "line_range": [
+        20
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "20     assert conf.oldaskconfig('oldask1_config') == 0\n21     assert conf.stdout_contains('oldask1_expected_stdout')\n22 \n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 21,
+      "line_range": [
+        21
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "24 def test_allyes(conf):\n25     assert conf.allyesconfig() == 0\n26     assert conf.config_contains('allyes_expected_config')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 25,
+      "line_range": [
+        25
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "25     assert conf.allyesconfig() == 0\n26     assert conf.config_contains('allyes_expected_config')\n27 \n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 26,
+      "line_range": [
+        26
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "29 def test_allmod(conf):\n30     assert conf.allmodconfig() == 0\n31     assert conf.config_contains('allmod_expected_config')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 30,
+      "line_range": [
+        30
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "30     assert conf.allmodconfig() == 0\n31     assert conf.config_contains('allmod_expected_config')\n32 \n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 31,
+      "line_range": [
+        31
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "34 def test_allno(conf):\n35     assert conf.allnoconfig() == 0\n36     assert conf.config_contains('allno_expected_config')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 35,
+      "line_range": [
+        35
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "35     assert conf.allnoconfig() == 0\n36     assert conf.config_contains('allno_expected_config')\n37 \n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 36,
+      "line_range": [
+        36
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "39 def test_alldef(conf):\n40     assert conf.alldefconfig() == 0\n41     assert conf.config_contains('alldef_expected_config')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 40,
+      "line_range": [
+        40
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "40     assert conf.alldefconfig() == 0\n41     assert conf.config_contains('alldef_expected_config')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 41,
+      "line_range": [
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "13 def test(conf):\n14     assert conf.oldaskconfig('config', 'y') == 0\n15     assert conf.config_contains('expected_config')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice_value_with_m_dep\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 14,
+      "line_range": [
+        14
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "14     assert conf.oldaskconfig('config', 'y') == 0\n15     assert conf.config_contains('expected_config')\n16     assert conf.stdout_contains('expected_stdout')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice_value_with_m_dep\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 15,
+      "line_range": [
+        15
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "15     assert conf.config_contains('expected_config')\n16     assert conf.stdout_contains('expected_stdout')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\choice_value_with_m_dep\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 16,
+      "line_range": [
+        16
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "14 import shutil\n15 import subprocess\n16 import tempfile\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\conftest.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 15,
+      "line_range": [
+        15
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "64 \n65             ps = subprocess.Popen(command,\n66                                   stdin=subprocess.PIPE,\n67                                   stdout=subprocess.PIPE,\n68                                   stderr=subprocess.PIPE,\n69                                   cwd=temp_dir,\n70                                   env=dict(os.environ, **extra_env))\n71 \n",
+      "filename": "linux\\scripts\\kconfig\\tests\\conftest.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 65,
+      "line_range": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "8 def test(conf):\n9     assert conf.oldaskconfig() == 1\n10     assert conf.stderr_contains('expected_stderr')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\err_recursive_dep\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 9,
+      "line_range": [
+        9
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "9     assert conf.oldaskconfig() == 1\n10     assert conf.stderr_contains('expected_stderr')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\err_recursive_dep\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 10,
+      "line_range": [
+        10
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "9 def test(conf):\n10     assert conf.oldaskconfig() != 0\n11     assert conf.stderr_contains('expected_stderr')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\err_recursive_inc\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 10,
+      "line_range": [
+        10
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "10     assert conf.oldaskconfig() != 0\n11     assert conf.stderr_contains('expected_stderr')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\err_recursive_inc\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "13 def test(conf):\n14     assert conf.defconfig('defconfig') == 0\n15     assert conf.config_contains('expected_config')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\inter_choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 14,
+      "line_range": [
+        14
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "14     assert conf.defconfig('defconfig') == 0\n15     assert conf.config_contains('expected_config')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\inter_choice\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 15,
+      "line_range": [
+        15
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "13 def test(conf):\n14     assert conf.oldconfig('config', 'y') == 0\n15     assert conf.stdout_contains('expected_stdout')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\new_choice_with_dep\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 14,
+      "line_range": [
+        14
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "14     assert conf.oldconfig('config', 'y') == 0\n15     assert conf.stdout_contains('expected_stdout')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\new_choice_with_dep\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 15,
+      "line_range": [
+        15
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "18 def test(conf):\n19     assert conf.oldaskconfig('config', 'n') == 0\n20     assert conf.config_matches('expected_config')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\no_write_if_dep_unmet\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 19,
+      "line_range": [
+        19
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "19     assert conf.oldaskconfig('config', 'n') == 0\n20     assert conf.config_matches('expected_config')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\no_write_if_dep_unmet\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 20,
+      "line_range": [
+        20
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "6 def test(conf):\n7     assert conf.oldaskconfig() == 0\n8     assert conf.stdout_contains('expected_stdout')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\preprocess\\builtin_func\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "7     assert conf.oldaskconfig() == 0\n8     assert conf.stdout_contains('expected_stdout')\n9     assert conf.stderr_matches('expected_stderr')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\preprocess\\builtin_func\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 8,
+      "line_range": [
+        8
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "8     assert conf.stdout_contains('expected_stdout')\n9     assert conf.stderr_matches('expected_stderr')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\preprocess\\builtin_func\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 9,
+      "line_range": [
+        9
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "9 def test(conf):\n10     assert conf.oldaskconfig() != 0\n11     assert conf.stderr_matches('expected_stderr')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\preprocess\\circular_expansion\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 10,
+      "line_range": [
+        10
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "10     assert conf.oldaskconfig() != 0\n11     assert conf.stderr_matches('expected_stderr')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\preprocess\\circular_expansion\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "6 def test(conf):\n7     assert conf.oldaskconfig() == 0\n8     assert conf.stderr_matches('expected_stderr')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\preprocess\\escape\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "7     assert conf.oldaskconfig() == 0\n8     assert conf.stderr_matches('expected_stderr')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\preprocess\\escape\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 8,
+      "line_range": [
+        8
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "6 def test(conf):\n7     assert conf.oldaskconfig() == 0\n8     assert conf.stderr_matches('expected_stderr')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\preprocess\\variable\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "7     assert conf.oldaskconfig() == 0\n8     assert conf.stderr_matches('expected_stderr')\n",
+      "filename": "linux\\scripts\\kconfig\\tests\\preprocess\\variable\\__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 8,
+      "line_range": [
+        8
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "240         repo = git.Repo(os.getcwd())\n241         assert not repo.bare\n242 \n243         # Initialize SPDX data\n244         spdx = read_spdxdata(repo)\n",
+      "filename": "linux\\scripts\\spdxcheck.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 241,
+      "line_range": [
+        241,
+        242,
+        243
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "29 import tempfile\n30 import subprocess\n31 \n32 parser = argparse.ArgumentParser(description=desc,\n",
+      "filename": "linux\\tools\\cgroup\\iocost_coef_gen.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 30,
+      "line_range": [
+        30,
+        31
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "62     devname = subprocess.run(f'findmnt -nvo SOURCE -T{path}',\n63                              stdout=subprocess.PIPE, shell=True).stdout\n64     devname = os.path.basename(devname).decode('utf-8').strip()\n65 \n",
+      "filename": "linux\\tools\\cgroup\\iocost_coef_gen.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 63,
+      "line_range": [
+        62,
+        63
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "79     info(f'Creating testfile {path}')\n80     subprocess.check_call(f'rm -f {path}', shell=True)\n81     subprocess.check_call(f'touch {path}', shell=True)\n",
+      "filename": "linux\\tools\\cgroup\\iocost_coef_gen.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 80,
+      "line_range": [
+        80
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "80     subprocess.check_call(f'rm -f {path}', shell=True)\n81     subprocess.check_call(f'touch {path}', shell=True)\n82     subprocess.call(f'chattr +C {path}', shell=True)\n",
+      "filename": "linux\\tools\\cgroup\\iocost_coef_gen.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 81,
+      "line_range": [
+        81
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "81     subprocess.check_call(f'touch {path}', shell=True)\n82     subprocess.call(f'chattr +C {path}', shell=True)\n83     subprocess.check_call(\n",
+      "filename": "linux\\tools\\cgroup\\iocost_coef_gen.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 82,
+      "line_range": [
+        82
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "86         f'iflag=count_bytes,fullblock oflag=direct bs=16M status=none',\n87         shell=True)\n88 \n89 def run_fio(testfile, duration, iotype, iodepth, blocksize, jobs):\n90     global args\n91 \n92     eta = 'never' if args.quiet else 'always'\n",
+      "filename": "linux\\tools\\cgroup\\iocost_coef_gen.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 87,
+      "line_range": [
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "100         dbg(f'Running {cmd}')\n101     subprocess.check_call(cmd, shell=True)\n102     with open(outfile.name, 'r') as f:\n",
+      "filename": "linux\\tools\\cgroup\\iocost_coef_gen.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 101,
+      "line_range": [
+        101
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "229             break\n230     except:\n231         pass\n",
+      "filename": "linux\\tools\\cgroup\\iocost_monitor.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 230,
+      "line_range": [
+        230
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "141             cfg['shared_slab_pages'] = True\n142     except:\n143         pass\n",
+      "filename": "linux\\tools\\cgroup\\memcg_slabinfo.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 142,
+      "line_range": [
+        142
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "69 \t\tmachine_to_id['armeb'] = audit.MACH_ARMEB\n70 \texcept:\n71 \t\tpass\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\Perf-Trace-Util\\lib\\Perf\\Trace\\Util.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 70,
+      "line_range": [
+        70
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "219 \t\tpyside_version_1 = False\n220 \texcept:\n221 \t\tpass\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\export-to-postgresql.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 220,
+      "line_range": [
+        220
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "76 \t\tpyside_version_1 = False\n77 \texcept:\n78 \t\tpass\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\export-to-sqlite.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 77,
+      "line_range": [
+        77
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "149 \tdb_exists = True\n150 except:\n151 \tpass\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\export-to-sqlite.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 150,
+      "line_range": [
+        150
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "324 \tsqlite_has_printf = True\n325 except:\n326 \tpass\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\export-to-sqlite.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 325,
+      "line_range": [
+        325
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "99 \t# Python2\n100 \timport cPickle as pickle\n101 \t# size of pickled integer big enough for record size\n102 \tglb_nsz = 8\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\exported-sql-viewer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with cPickle module.",
+      "line_number": 100,
+      "line_range": [
+        100,
+        101
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b403-import-pickle",
+      "test_id": "B403",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "103 except ImportError:\n104 \timport pickle\n105 \tglb_nsz = 16\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\exported-sql-viewer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with pickle module.",
+      "line_number": 104,
+      "line_range": [
+        104
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b403-import-pickle",
+      "test_id": "B403",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "119 \t\tpyside_version_1 = False\n120 \texcept:\n121 \t\tpass\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\exported-sql-viewer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 120,
+      "line_range": [
+        120
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "2716 \t\t\tpos = 0\n2717 \t\tn = pickle.loads(self.buffer[pos : pos + glb_nsz])\n2718 \t\tif n == 0:\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\exported-sql-viewer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",
+      "line_number": 2717,
+      "line_range": [
+        2717
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b301-pickle",
+      "test_id": "B301",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "2719 \t\t\tpos = 0\n2720 \t\t\tn = pickle.loads(self.buffer[0 : glb_nsz])\n2721 \t\tpos += glb_nsz\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\exported-sql-viewer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",
+      "line_number": 2720,
+      "line_range": [
+        2720
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b301-pickle",
+      "test_id": "B301",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "2721 \t\tpos += glb_nsz\n2722 \t\tobj = pickle.loads(self.buffer[pos : pos + n])\n2723 \t\tself.local_tail = pos + n\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\exported-sql-viewer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",
+      "line_number": 2722,
+      "line_range": [
+        2722
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b301-pickle",
+      "test_id": "B301",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "4657 \t\t\t\tfn(win.view)\n4658 \t\t\texcept:\n4659 \t\t\t\tpass\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\exported-sql-viewer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 4658,
+      "line_range": [
+        4658
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "4671 \t\t\t\twin.find_bar.Activate()\n4672 \t\t\texcept:\n4673 \t\t\t\tpass\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\exported-sql-viewer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 4672,
+      "line_range": [
+        4672
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "4679 \t\t\t\twin.fetch_bar.Activate()\n4680 \t\t\texcept:\n4681 \t\t\t\tpass\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\exported-sql-viewer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 4680,
+      "line_range": [
+        4680
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "4911 \t\t\t\tx.Shutdown()\n4912 \t\t\texcept:\n4913 \t\t\t\tpass\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\exported-sql-viewer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 4912,
+      "line_range": [
+        4912
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "5090 \t\tf.close()\n5091 \texcept:\n5092 \t\tpass\n",
+      "filename": "linux\\tools\\perf\\scripts\\python\\exported-sql-viewer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 5091,
+      "line_range": [
+        5091
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "229               self.perf, self.command, tempdir, self.args)\n230         ret = os.WEXITSTATUS(os.system(cmd))\n231 \n",
+      "filename": "linux\\tools\\perf\\tests\\attr.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 230,
+      "line_range": [
+        230
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "1 from os import getenv\n2 from subprocess import Popen, PIPE\n3 from re import sub\n",
+      "filename": "linux\\tools\\perf\\util\\setup.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with Popen module.",
+      "line_number": 2,
+      "line_range": [
+        2
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "5 cc = getenv(\"CC\")\n6 cc_is_clang = b\"clang version\" in Popen([cc.split()[0], \"-v\"], stderr=PIPE).stderr.readline()\n7 \n",
+      "filename": "linux\\tools\\perf\\util\\setup.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 6,
+      "line_range": [
+        6
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "8 def clang_has_option(option):\n9     return [o for o in Popen([cc, option], stderr=PIPE).stderr.readlines() if b\"unknown argument\" in o] == [ ]\n10 \n",
+      "filename": "linux\\tools\\perf\\util\\setup.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 9,
+      "line_range": [
+        9
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "34 from datetime import datetime, timedelta\n35 from subprocess import call, Popen, PIPE\n36 import sleepgraph as aslib\n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with call module.",
+      "line_number": 35,
+      "line_range": [
+        35
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "305 \telse:\n306 \t\tlf = Popen('dmesg', stdout=PIPE).stdout\n307 \tfor line in lf:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 306,
+      "line_range": [
+        306
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "305 \telse:\n306 \t\tlf = Popen('dmesg', stdout=PIPE).stdout\n307 \tfor line in lf:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 306,
+      "line_range": [
+        306
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "465 \tsysvals.writeDatafileHeader(sysvals.dmesgfile)\n466 \tcall('dmesg >> '+sysvals.dmesgfile, shell=True)\n467 \tif not sysvals.useftrace:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 466,
+      "line_range": [
+        466
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "470 \tsysvals.writeDatafileHeader(sysvals.ftracefile)\n471 \tcall('cat '+sysvals.tpath+'trace >> '+sysvals.ftracefile, shell=True)\n472 \n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 471,
+      "line_range": [
+        471
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "720 \t\t\tshutil.move(backfile, cronfile)\n721 \t\t\tcall([cmd, cronfile])\n722 \t\treturn\n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 721,
+      "line_range": [
+        721
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "739 \t\top.close()\n740 \t\tres = call([cmd, cronfile])\n741 \texcept Exception as e:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 740,
+      "line_range": [
+        740
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "754 \t\ttry:\n755 \t\t\tcall(sysvals.blexec, stderr=PIPE, stdout=PIPE,\n756 \t\t\t\tenv={'PATH': '.:/sbin:/usr/sbin:/usr/bin:/sbin:/bin'})\n757 \t\texcept Exception as e:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 755,
+      "line_range": [
+        755,
+        756
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "801 \t\top.close()\n802 \t\tres = call(sysvals.blexec)\n803 \t\tos.remove(grubfile)\n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 802,
+      "line_range": [
+        802
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "1047 \t\t\tupdateCron()\n1048 \t\t\tcall('reboot')\n1049 \t\telse:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 1048,
+      "line_range": [
+        1048
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "1047 \t\t\tupdateCron()\n1048 \t\t\tcall('reboot')\n1049 \t\telse:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 1048,
+      "line_range": [
+        1048
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "1062 \t\t\tsysvals.fsetVal('0', 'tracing_on')\n1063 \t\texcept:\n1064 \t\t\tpass\n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 1063,
+      "line_range": [
+        1063
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "1096 \t\tcmd = 'chown -R {0}:{0} {1} > /dev/null 2>&1'\n1097 \t\tcall(cmd.format(os.environ['SUDO_USER'], sysvals.testdir), shell=True)\n1098 \n",
+      "filename": "linux\\tools\\power\\pm-graph\\bootgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 1097,
+      "line_range": [
+        1097
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "65 from threading import Thread\n66 from subprocess import call, Popen, PIPE\n67 import base64\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with call module.",
+      "line_number": 66,
+      "line_range": [
+        66
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "337 \t\t\t\tsignal.signal(signum, self.signalHandler)\n338 \t\t\texcept:\n339 \t\t\t\tcontinue\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Continue detected.",
+      "line_number": 338,
+      "line_range": [
+        338
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b112_try_except_continue.html",
+      "test_id": "B112",
+      "test_name": "try_except_continue"
+    },
+    {
+      "code": "362 \t\ttry:\n363 \t\t\tfp = Popen(['which', cmd], stdout=PIPE, stderr=PIPE).stdout\n364 \t\t\tout = ascii(fp.read()).strip()\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 363,
+      "line_range": [
+        363
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "362 \t\ttry:\n363 \t\t\tfp = Popen(['which', cmd], stdout=PIPE, stderr=PIPE).stdout\n364 \t\t\tout = ascii(fp.read()).strip()\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 363,
+      "line_range": [
+        363
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "479 \tdef rtcWakeAlarmOn(self):\n480 \t\tcall('echo 0 > '+self.rtcpath+'/wakealarm', shell=True)\n481 \t\tnowtime = open(self.rtcpath+'/since_epoch', 'r').read().strip()\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 480,
+      "line_range": [
+        480
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "487 \t\talarm = nowtime + self.rtcwaketime\n488 \t\tcall('echo %d > %s/wakealarm' % (alarm, self.rtcpath), shell=True)\n489 \tdef rtcWakeAlarmOff(self):\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 488,
+      "line_range": [
+        488
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "489 \tdef rtcWakeAlarmOff(self):\n490 \t\tcall('echo 0 > %s/wakealarm' % self.rtcpath, shell=True)\n491 \tdef initdmesg(self):\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 490,
+      "line_range": [
+        490
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "492 \t\t# get the latest time stamp from the dmesg log\n493 \t\tfp = Popen('dmesg', stdout=PIPE).stdout\n494 \t\tktime = '0'\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 493,
+      "line_range": [
+        493
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "492 \t\t# get the latest time stamp from the dmesg log\n493 \t\tfp = Popen('dmesg', stdout=PIPE).stdout\n494 \t\tktime = '0'\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 493,
+      "line_range": [
+        493
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "507 \t\t# store all new dmesg lines since initdmesg was called\n508 \t\tfp = Popen('dmesg', stdout=PIPE).stdout\n509 \t\tfor line in fp:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 508,
+      "line_range": [
+        508
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "507 \t\t# store all new dmesg lines since initdmesg was called\n508 \t\tfp = Popen('dmesg', stdout=PIPE).stdout\n509 \t\tfor line in fp:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 508,
+      "line_range": [
+        508
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "538 \t\tif not current:\n539 \t\t\tcall('cat '+self.tpath+'available_filter_functions', shell=True)\n540 \t\t\treturn\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 539,
+      "line_range": [
+        539
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "707 \t\t\tfp.close()\n708 \t\texcept:\n709 \t\t\tpass\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 708,
+      "line_range": [
+        708
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "858 \t\t\tcmd = 'chown -R {0}:{0} {1} > /dev/null 2>&1'\n859 \t\t\tcall(cmd.format(self.sudouser, dir), shell=True)\n860 \tdef outputResult(self, testdata, num=0):\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 859,
+      "line_range": [
+        859
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "1037 \t\t\ttry:\n1038 \t\t\t\tfp = Popen([cmdpath]+cargs[3:], stdout=PIPE, stderr=PIPE).stdout\n1039 \t\t\t\tinfo = ascii(fp.read()).strip()\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 1038,
+      "line_range": [
+        1038
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "1040 \t\t\t\tfp.close()\n1041 \t\t\texcept:\n1042 \t\t\t\tcontinue\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Continue detected.",
+      "line_number": 1041,
+      "line_range": [
+        1041
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b112_try_except_continue.html",
+      "test_id": "B112",
+      "test_name": "try_except_continue"
+    },
+    {
+      "code": "1068 \t\t\treturn False\n1069 \t\tfp = Popen([cmd, '-v'], stdout=PIPE, stderr=PIPE).stderr\n1070 \t\tout = ascii(fp.read()).strip()\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 1069,
+      "line_range": [
+        1069
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "1079 \t\tfullcmd = '%s -q -S echo freeze > %s' % (cmd, self.powerfile)\n1080 \t\tfp = Popen(['sh', '-c', fullcmd], stdout=PIPE, stderr=PIPE).stderr\n1081 \t\tfor line in fp:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 1080,
+      "line_range": [
+        1080
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "1079 \t\tfullcmd = '%s -q -S echo freeze > %s' % (cmd, self.powerfile)\n1080 \t\tfp = Popen(['sh', '-c', fullcmd], stdout=PIPE, stderr=PIPE).stderr\n1081 \t\tfor line in fp:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 1080,
+      "line_range": [
+        1080
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "2988 \t\tc = ['cat /proc/[1-9]*/stat 2>/dev/null']\n2989 \t\tprocess = Popen(c, shell=True, stdout=PIPE)\n2990 \t\trunning = dict()\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 2989,
+      "line_range": [
+        2989
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "3770 \t\t\t\tktime = float(val)\n3771 \t\t\texcept:\n3772 \t\t\t\tcontinue\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Continue detected.",
+      "line_number": 3771,
+      "line_range": [
+        3771
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b112_try_except_continue.html",
+      "test_id": "B112",
+      "test_name": "try_except_continue"
+    },
+    {
+      "code": "5239 \t\t\tpprint('SYNCING FILESYSTEMS')\n5240 \t\tcall('sync', shell=True)\n5241 \t# mark the start point in the kernel ring buffer just as we start\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 5240,
+      "line_range": [
+        5240
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "5239 \t\t\tpprint('SYNCING FILESYSTEMS')\n5240 \t\tcall('sync', shell=True)\n5241 \t# mark the start point in the kernel ring buffer just as we start\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 5240,
+      "line_range": [
+        5240
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "5281 \t\tif sysvals.testcommand != '':\n5282 \t\t\tres = call(sysvals.testcommand+' 2>&1', shell=True);\n5283 \t\t\tif res != 0:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 5282,
+      "line_range": [
+        5282
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "5519 \t\t\t\tmemsize = 0x20\n5520 \t\t\texcept:\n5521 \t\t\t\tcontinue\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Continue detected.",
+      "line_number": 5520,
+      "line_range": [
+        5520
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b112_try_except_continue.html",
+      "test_id": "B112",
+      "test_name": "try_except_continue"
+    },
+    {
+      "code": "5593 \tif cmd == 'init':\n5594 \t\tret = call(xset.format('dpms 0 0 0'), shell=True)\n5595 \t\tif not ret:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 5594,
+      "line_range": [
+        5594
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "5595 \t\tif not ret:\n5596 \t\t\tret = call(xset.format('s off'), shell=True)\n5597 \telif cmd == 'reset':\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 5596,
+      "line_range": [
+        5596
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "5597 \telif cmd == 'reset':\n5598 \t\tret = call(xset.format('s reset'), shell=True)\n5599 \telif cmd in ['on', 'off', 'standby', 'suspend']:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 5598,
+      "line_range": [
+        5598
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "5600 \t\tb4 = displayControl('stat')\n5601 \t\tret = call(xset.format('dpms force %s' % cmd), shell=True)\n5602 \t\tif not ret:\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 5601,
+      "line_range": [
+        5601
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "5610 \telif cmd == 'stat':\n5611 \t\tfp = Popen(xset.format('q').split(' '), stdout=PIPE).stdout\n5612 \t\tret = 'unknown'\n",
+      "filename": "linux\\tools\\power\\pm-graph\\sleepgraph.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 5611,
+      "line_range": [
+        5611
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "27 from datetime import datetime\n28 import subprocess\n29 import os\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 28,
+      "line_range": [
+        28
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "181         g_plot('set title \"{} : cpu pstate vs. sample : {:%F %H:%M}\"'.format(testname, datetime.now()))\n182         title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n183         plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_SAMPLE, C_TO)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 182,
+      "line_range": [
+        182
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "181         g_plot('set title \"{} : cpu pstate vs. sample : {:%F %H:%M}\"'.format(testname, datetime.now()))\n182         title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n183         plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_SAMPLE, C_TO)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 182,
+      "line_range": [
+        182
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "198 #\n199     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n200     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_TO)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 199,
+      "line_range": [
+        199
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "198 #\n199     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n200     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_TO)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 199,
+      "line_range": [
+        199
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "212 \n213     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n214     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_LOAD)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 213,
+      "line_range": [
+        213
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "212 \n213     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n214     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_LOAD)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 213,
+      "line_range": [
+        213
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "226 \n227     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n228     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_FREQ)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 227,
+      "line_range": [
+        227
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "226 \n227     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n228     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_FREQ)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 227,
+      "line_range": [
+        227
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "240 \n241     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n242     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_DURATION)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 241,
+      "line_range": [
+        241
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "240 \n241     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n242     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_DURATION)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 241,
+      "line_range": [
+        241
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "254 \n255     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n256     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_SCALED)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 255,
+      "line_range": [
+        255
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "254 \n255     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n256     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_SCALED)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 255,
+      "line_range": [
+        255
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "268 \n269     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n270     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_BOOST)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 269,
+      "line_range": [
+        269
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "268 \n269     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n270     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_BOOST)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 269,
+      "line_range": [
+        269
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "282 \n283     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n284     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_GHZ)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 283,
+      "line_range": [
+        283
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "282 \n283     title_list = subprocess.check_output('ls cpu???.csv | sed -e \\'s/.csv//\\'',shell=True).decode('utf-8').replace('\\n', ' ')\n284     plot_str = \"plot for [i in title_list] i.'.csv' using {:d}:{:d} pt 7 ps 1 title i\".format(C_ELAPSED, C_GHZ)\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 283,
+      "line_range": [
+        283
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "352             if cpu_mask[int(index)] != 0:\n353                 os.system('grep -m 1 common_cpu cpu.csv > cpu{:0>3}.csv'.format(index))\n354                 os.system('grep CPU_{:0>3} cpu.csv >> cpu{:0>3}.csv'.format(index, index))\n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 353,
+      "line_range": [
+        353
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "353                 os.system('grep -m 1 common_cpu cpu.csv > cpu{:0>3}.csv'.format(index))\n354                 os.system('grep CPU_{:0>3} cpu.csv >> cpu{:0>3}.csv'.format(index, index))\n355 \n",
+      "filename": "linux\\tools\\power\\x86\\intel_pstate_tracer\\intel_pstate_tracer.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 354,
+      "line_range": [
+        354
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "10 import logging\n11 import subprocess\n12 import os\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_kernel.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "36 \t\ttry:\n37 \t\t\tsubprocess.check_output(['make', 'mrproper'], stderr=subprocess.STDOUT)\n38 \t\texcept OSError as e:\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_kernel.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 37,
+      "line_range": [
+        37
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "36 \t\ttry:\n37 \t\t\tsubprocess.check_output(['make', 'mrproper'], stderr=subprocess.STDOUT)\n38 \t\texcept OSError as e:\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_kernel.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 37,
+      "line_range": [
+        37
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "49 \t\ttry:\n50 \t\t\tsubprocess.check_output(command, stderr=subprocess.STDOUT)\n51 \t\texcept OSError as e:\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_kernel.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 50,
+      "line_range": [
+        50
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "63 \t\t\tcommand += ['O=' + build_dir]\n64 \t\tprocess = subprocess.Popen(\n65 \t\t\tcommand,\n66 \t\t\tstdout=subprocess.DEVNULL,\n67 \t\t\tstderr=subprocess.STDOUT)\n68 \t\tprocess.wait()\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_kernel.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 64,
+      "line_range": [
+        64,
+        65,
+        66,
+        67
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "84 \t\ttry:\n85 \t\t\tsubprocess.check_output(command, stderr=subprocess.STDOUT)\n86 \t\texcept OSError as e:\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_kernel.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 85,
+      "line_range": [
+        85
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "96 \t\twith open(outfile, 'w') as output:\n97 \t\t\tprocess = subprocess.Popen([linux_bin] + params,\n98 \t\t\t\t\t\t   stdout=output,\n99 \t\t\t\t\t\t   stderr=subprocess.STDOUT)\n100 \t\t\tprocess.wait(timeout)\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_kernel.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 97,
+      "line_range": [
+        97,
+        98,
+        99
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "182 \t\tself._ops.linux_bin(args, timeout, build_dir, outfile)\n183 \t\tsubprocess.call(['stty', 'sane'])\n184 \t\twith open(outfile, 'r') as file:\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_kernel.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 183,
+      "line_range": [
+        183
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "182 \t\tself._ops.linux_bin(args, timeout, build_dir, outfile)\n183 \t\tsubprocess.call(['stty', 'sane'])\n184 \t\twith open(outfile, 'r') as file:\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_kernel.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 183,
+      "line_range": [
+        183
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "189 \t\tlogging.error('Build interruption occurred. Cleaning console.')\n190 \t\tsubprocess.call(['stty', 'sane'])\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_kernel.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 190,
+      "line_range": [
+        190
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "189 \t\tlogging.error('Build interruption occurred. Cleaning console.')\n190 \t\tsubprocess.call(['stty', 'sane'])\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_kernel.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 190,
+      "line_range": [
+        190
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "287 \t\tkunit.main(['config', '--build_dir=.kunit'], self.linux_source_mock)\n288 \t\tassert self.linux_source_mock.build_reconfig.call_count == 1\n289 \t\tassert self.linux_source_mock.run_kernel.call_count == 0\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 288,
+      "line_range": [
+        288
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "288 \t\tassert self.linux_source_mock.build_reconfig.call_count == 1\n289 \t\tassert self.linux_source_mock.run_kernel.call_count == 0\n290 \n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 289,
+      "line_range": [
+        289
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "292 \t\tkunit.main(['build'], self.linux_source_mock)\n293 \t\tassert self.linux_source_mock.build_reconfig.call_count == 0\n294 \t\tself.linux_source_mock.build_um_kernel.assert_called_once_with(False, 8, '.kunit', None)\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 293,
+      "line_range": [
+        293
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "294 \t\tself.linux_source_mock.build_um_kernel.assert_called_once_with(False, 8, '.kunit', None)\n295 \t\tassert self.linux_source_mock.run_kernel.call_count == 0\n296 \n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 295,
+      "line_range": [
+        295
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "298 \t\tkunit.main(['exec'], self.linux_source_mock)\n299 \t\tassert self.linux_source_mock.build_reconfig.call_count == 0\n300 \t\tassert self.linux_source_mock.run_kernel.call_count == 1\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 299,
+      "line_range": [
+        299
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "299 \t\tassert self.linux_source_mock.build_reconfig.call_count == 0\n300 \t\tassert self.linux_source_mock.run_kernel.call_count == 1\n301 \t\tself.linux_source_mock.run_kernel.assert_called_once_with(build_dir='.kunit', timeout=300)\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 300,
+      "line_range": [
+        300
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "305 \t\tkunit.main(['run'], self.linux_source_mock)\n306 \t\tassert self.linux_source_mock.build_reconfig.call_count == 1\n307 \t\tassert self.linux_source_mock.run_kernel.call_count == 1\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 306,
+      "line_range": [
+        306
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "306 \t\tassert self.linux_source_mock.build_reconfig.call_count == 1\n307 \t\tassert self.linux_source_mock.run_kernel.call_count == 1\n308 \t\tself.linux_source_mock.run_kernel.assert_called_once_with(\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 307,
+      "line_range": [
+        307
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "315 \t\t\tkunit.main(['exec'], self.linux_source_mock)\n316 \t\tassert type(e.exception) == SystemExit\n317 \t\tassert e.exception.code == 1\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 316,
+      "line_range": [
+        316
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "316 \t\tassert type(e.exception) == SystemExit\n317 \t\tassert e.exception.code == 1\n318 \n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 317,
+      "line_range": [
+        317
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "322 \t\t\tkunit.main(['run'], self.linux_source_mock)\n323 \t\tassert type(e.exception) == SystemExit\n324 \t\tassert e.exception.code == 1\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 323,
+      "line_range": [
+        323
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "323 \t\tassert type(e.exception) == SystemExit\n324 \t\tassert e.exception.code == 1\n325 \t\tassert self.linux_source_mock.build_reconfig.call_count == 1\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 324,
+      "line_range": [
+        324
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "324 \t\tassert e.exception.code == 1\n325 \t\tassert self.linux_source_mock.build_reconfig.call_count == 1\n326 \t\tassert self.linux_source_mock.run_kernel.call_count == 1\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 325,
+      "line_range": [
+        325
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "325 \t\tassert self.linux_source_mock.build_reconfig.call_count == 1\n326 \t\tassert self.linux_source_mock.run_kernel.call_count == 1\n327 \t\tself.print_mock.assert_any_call(StrContains(' 0 tests run'))\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 326,
+      "line_range": [
+        326
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "331 \t\tkunit.main(['exec', '--raw_output'], self.linux_source_mock)\n332 \t\tassert self.linux_source_mock.run_kernel.call_count == 1\n333 \t\tfor kall in self.print_mock.call_args_list:\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 332,
+      "line_range": [
+        332
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "333 \t\tfor kall in self.print_mock.call_args_list:\n334 \t\t\tassert kall != mock.call(StrContains('Testing complete.'))\n335 \t\t\tassert kall != mock.call(StrContains(' 0 tests run'))\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 334,
+      "line_range": [
+        334
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "334 \t\t\tassert kall != mock.call(StrContains('Testing complete.'))\n335 \t\t\tassert kall != mock.call(StrContains(' 0 tests run'))\n336 \n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 335,
+      "line_range": [
+        335
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "339 \t\tkunit.main(['run', '--raw_output'], self.linux_source_mock)\n340 \t\tassert self.linux_source_mock.build_reconfig.call_count == 1\n341 \t\tassert self.linux_source_mock.run_kernel.call_count == 1\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 340,
+      "line_range": [
+        340
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "340 \t\tassert self.linux_source_mock.build_reconfig.call_count == 1\n341 \t\tassert self.linux_source_mock.run_kernel.call_count == 1\n342 \t\tfor kall in self.print_mock.call_args_list:\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 341,
+      "line_range": [
+        341
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "342 \t\tfor kall in self.print_mock.call_args_list:\n343 \t\t\tassert kall != mock.call(StrContains('Testing complete.'))\n344 \t\t\tassert kall != mock.call(StrContains(' 0 tests run'))\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 343,
+      "line_range": [
+        343
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "343 \t\t\tassert kall != mock.call(StrContains('Testing complete.'))\n344 \t\t\tassert kall != mock.call(StrContains(' 0 tests run'))\n345 \n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 344,
+      "line_range": [
+        344
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "354 \t\tkunit.main(['run', '--timeout', str(timeout)], self.linux_source_mock)\n355 \t\tassert self.linux_source_mock.build_reconfig.call_count == 1\n356 \t\tself.linux_source_mock.run_kernel.assert_called_once_with(\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 355,
+      "line_range": [
+        355
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "362 \t\tkunit.main(['run', '--build_dir=.kunit'], self.linux_source_mock)\n363 \t\tassert self.linux_source_mock.build_reconfig.call_count == 1\n364 \t\tself.linux_source_mock.run_kernel.assert_called_once_with(\n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 363,
+      "line_range": [
+        363
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "370 \t\tkunit.main(['config', '--build_dir', build_dir], self.linux_source_mock)\n371 \t\tassert self.linux_source_mock.build_reconfig.call_count == 1\n372 \n",
+      "filename": "linux\\tools\\testing\\kunit\\kunit_tool_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 371,
+      "line_range": [
+        371
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "7 import socket, time\n8 import subprocess\n9 import select\n",
+      "filename": "linux\\tools\\testing\\selftests\\bpf\\tcp_client.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 8,
+      "line_range": [
+        8
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "7 import socket, time\n8 import subprocess\n9 import select\n",
+      "filename": "linux\\tools\\testing\\selftests\\bpf\\tcp_server.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 8,
+      "line_range": [
+        8
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "48 cmdStr = (\"./tcp_client.py %d &\") % (serverPort)\n49 os.system(cmdStr)\n50 \n",
+      "filename": "linux\\tools\\testing\\selftests\\bpf\\tcp_server.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 49,
+      "line_range": [
+        49
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "8 import socket\n9 import subprocess\n10 import unittest\n",
+      "filename": "linux\\tools\\testing\\selftests\\bpf\\test_bpftool.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 9,
+      "line_range": [
+        9
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "33 \n34     return subprocess.check_output(_args)\n35 \n",
+      "filename": "linux\\tools\\testing\\selftests\\bpf\\test_bpftool.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 34,
+      "line_range": [
+        34
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "27 import struct\n28 import subprocess\n29 import time\n",
+      "filename": "linux\\tools\\testing\\selftests\\bpf\\test_offload.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 28,
+      "line_range": [
+        28
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "100     \"\"\"\n101     proc = subprocess.Popen(cmd, shell=shell, stdout=subprocess.PIPE,\n102                             stderr=subprocess.PIPE)\n103     if background:\n",
+      "filename": "linux\\tools\\testing\\selftests\\bpf\\test_offload.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 101,
+      "line_range": [
+        101,
+        102
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "250     for i in range(n_retry):\n251         name = ''.join([random.choice(string.ascii_letters) for i in range(8)])\n252         ret, _ = ip(\"netns add %s\" % (name), fail=False)\n",
+      "filename": "linux\\tools\\testing\\selftests\\bpf\\test_offload.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 251,
+      "line_range": [
+        251
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "3 \n4 import subprocess\n5 import json as j\n",
+      "filename": "linux\\tools\\testing\\selftests\\drivers\\net\\mlxsw\\sharedbuffer_configuration.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "48         # Threshold value could be any integer between 3 to 16\n49         th = random.randint(3, 16)\n50         if pool[\"thtype\"] == \"dynamic\":\n",
+      "filename": "linux\\tools\\testing\\selftests\\drivers\\net\\mlxsw\\sharedbuffer_configuration.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 49,
+      "line_range": [
+        49
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "66             arr = egr_pools\n67         return arr[random.randint(0, len(arr) - 1)]\n68 \n",
+      "filename": "linux\\tools\\testing\\selftests\\drivers\\net\\mlxsw\\sharedbuffer_configuration.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 67,
+      "line_range": [
+        67
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "87             pool = self._pools[pool_n]\n88             assert pool[\"pool\"] == pool_n\n89             th = self._get_th(pool)\n",
+      "filename": "linux\\tools\\testing\\selftests\\drivers\\net\\mlxsw\\sharedbuffer_configuration.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 88,
+      "line_range": [
+        88
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "121 def run_cmd(cmd, json=False):\n122     out = subprocess.check_output(cmd, shell=True)\n123     if json:\n",
+      "filename": "linux\\tools\\testing\\selftests\\drivers\\net\\mlxsw\\sharedbuffer_configuration.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 122,
+      "line_range": [
+        122
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 from subprocess import PIPE, Popen\n5 import json\n",
+      "filename": "linux\\tools\\testing\\selftests\\net\\devlink_port_split.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with PIPE module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "29 \n30     p = Popen(cmd, stdout=PIPE, stderr=PIPE, shell=True)\n31     stdout, stderr = p.communicate()\n",
+      "filename": "linux\\tools\\testing\\selftests\\net\\devlink_port_split.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 30,
+      "line_range": [
+        30
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "56         stdout, stderr = run_command(cmd)\n57         assert stderr == \"\"\n58         ports = json.loads(stdout)['port']\n",
+      "filename": "linux\\tools\\testing\\selftests\\net\\devlink_port_split.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 57,
+      "line_range": [
+        57
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "78     stdout, stderr = run_command(cmd)\n79     assert stderr == \"\"\n80     values = list(json.loads(stdout)['port'].values())[0]\n",
+      "filename": "linux\\tools\\testing\\selftests\\net\\devlink_port_split.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 79,
+      "line_range": [
+        79
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "96     stdout, stderr = run_command(cmd)\n97     assert stderr == \"\"\n98     values = list(json.loads(stdout)['port'].values())[0]\n",
+      "filename": "linux\\tools\\testing\\selftests\\net\\devlink_port_split.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 97,
+      "line_range": [
+        97
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "211     stdout, stderr = run_command(cmd)\n212     assert stderr == \"\"\n213 \n214     if new_split_group != []:\n",
+      "filename": "linux\\tools\\testing\\selftests\\net\\devlink_port_split.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 212,
+      "line_range": [
+        212,
+        213
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "238         stdout, stderr = run_command(cmd)\n239         assert stderr == \"\"\n240 \n241         devs = json.loads(stdout)['dev']\n",
+      "filename": "linux\\tools\\testing\\selftests\\net\\devlink_port_split.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 239,
+      "line_range": [
+        239,
+        240
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "109     def format_xunit(self):\n110         from xml.sax.saxutils import escape\n111         xunit = \"<testsuites>\\n\"\n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\TdcResults.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",
+      "line_number": 110,
+      "line_range": [
+        110
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b406-import-xml-sax",
+      "test_id": "B406",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "7 from string import Template\n8 import subprocess\n9 import time\n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\buildebpfPlugin.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 8,
+      "line_range": [
+        8
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "53         proc = subprocess.Popen(command,\n54             shell=True,\n55             stdout=subprocess.PIPE,\n56             stderr=subprocess.PIPE,\n57             env=os.environ.copy())\n58         (rawout, serr) = proc.communicate()\n59 \n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\buildebpfPlugin.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 54,
+      "line_range": [
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "3 from string import Template\n4 import subprocess\n5 import time\n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\nsPlugin.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "132         proc = subprocess.Popen(command,\n133             shell=True,\n134             stdout=subprocess.PIPE,\n135             stderr=subprocess.PIPE,\n136             env=ENVIR)\n137         (rawout, serr) = proc.communicate()\n138 \n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\nsPlugin.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 133,
+      "line_range": [
+        132,
+        133,
+        134,
+        135,
+        136
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "5 from string import Template\n6 import subprocess\n7 import time\n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\scapyPlugin.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 6,
+      "line_range": [
+        6
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "44 \n45         pkt = eval(scapyinfo['packet'])\n46         if '$' in scapyinfo['iface']:\n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\scapyPlugin.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 45,
+      "line_range": [
+        45
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "10 from string import Template\n11 import subprocess\n12 import time\n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\valgrindPlugin.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "47         if self.args.verbose < 4:\n48             subprocess.check_output('rm -f vgnd-*.log', shell=True)\n49 \n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\valgrindPlugin.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 48,
+      "line_range": [
+        48
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "47         if self.args.verbose < 4:\n48             subprocess.check_output('rm -f vgnd-*.log', shell=True)\n49 \n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\plugin-lib\\valgrindPlugin.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 48,
+      "line_range": [
+        48
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "15 import json\n16 import subprocess\n17 import time\n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\tdc.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 16,
+      "line_range": [
+        16
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "193     proc = subprocess.Popen(command,\n194         shell=True,\n195         stdout=subprocess.PIPE,\n196         stderr=subprocess.PIPE,\n197         env=ENVIR)\n198 \n199     try:\n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\tdc.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 194,
+      "line_range": [
+        193,
+        194,
+        195,
+        196,
+        197
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "414         print('Want to pause\\nPress enter to continue ...')\n415         if input(sys.stdin):\n416             print('got something on stdin')\n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\tdc.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "The input method in Python 2 will read from standard input, evaluate and run the resulting string as python source code. This is similar, though in many ways worse, then using eval. On Python 2, use raw_input instead, input is safe in Python 3.",
+      "line_number": 415,
+      "line_range": [
+        415
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b322-input",
+      "test_id": "B322",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "565             while True:\n566                 newid = str('{:04x}'.format(random.randrange(16**4)))\n567                 if (does_id_exist(alltests, newid)):\n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\tdc.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 566,
+      "line_range": [
+        566
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "61     file = dir + '/' + file_prefix + str(i)\n62     os.system(\"./tdc_batch.py -n {} -a {} -e {} -m {} {} {}\".format(\n63         num_filters, handle, operation, i + mac_prefix, device, file))\n64     if not duplicate_handles:\n",
+      "filename": "linux\\tools\\testing\\selftests\\tc-testing\\tdc_multibatch.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 62,
+      "line_range": [
+        62,
+        63
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "418         pcr_update_cnt, pcr_select_cnt = struct.unpack('>II', rsp[10:18])\n419         assert pcr_select_cnt == 1\n420         rsp = rsp[18:]\n",
+      "filename": "linux\\tools\\testing\\selftests\\tpm2\\tpm2.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 419,
+      "line_range": [
+        419
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "422         alg2, pcrsel_len2 = struct.unpack('>HB', rsp[:3])\n423         assert bank_alg == alg2 and pcrsel_len == pcrsel_len2\n424         rsp = rsp[3 + pcrsel_len:]\n",
+      "filename": "linux\\tools\\testing\\selftests\\tpm2\\tpm2.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 423,
+      "line_range": [
+        423
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "434         ds = get_digest_size(bank_alg)\n435         assert(ds == len(dig))\n436 \n437         auth_cmd = AuthCommand()\n",
+      "filename": "linux\\tools\\testing\\selftests\\tpm2\\tpm2.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 435,
+      "line_range": [
+        435,
+        436
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "586         ds = get_digest_size(name_alg)\n587         assert(not policy_dig or ds == len(policy_dig))\n588 \n589         attributes = 0\n",
+      "filename": "linux\\tools\\testing\\selftests\\tpm2\\tpm2.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 587,
+      "line_range": [
+        587,
+        588
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "157             rejected = True\n158         except:\n159             pass\n",
+      "filename": "linux\\tools\\testing\\selftests\\tpm2\\tpm2_tests.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 158,
+      "line_range": [
+        158
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "173             rsp = self.client.tpm.read()\n174         except:\n175             pass\n",
+      "filename": "linux\\tools\\testing\\selftests\\tpm2\\tpm2_tests.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 174,
+      "line_range": [
+        174
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "195             rsp2 = self.client.tpm.read()\n196         except:\n197             pass\n",
+      "filename": "linux\\tools\\testing\\selftests\\tpm2\\tpm2_tests.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 196,
+      "line_range": [
+        196
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "220             pass\n221         except:\n222             pass\n",
+      "filename": "linux\\tools\\testing\\selftests\\tpm2\\tpm2_tests.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 221,
+      "line_range": [
+        221
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    }
+  ]
+}

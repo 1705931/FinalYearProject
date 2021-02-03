@@ -1,0 +1,61 @@
+{
+  "errors": [],
+  "generated_at": "2021-01-26T16:37:29Z",
+  "metrics": {
+    "_totals": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 21,
+      "nosec": 0
+    },
+    "roundcubemail\\plugins\\password\\helpers\\chpass-wrapper.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 21,
+      "nosec": 0
+    }
+  },
+  "results": [
+    {
+      "code": "4 import pwd\n5 import subprocess\n6 \n7 BLACKLIST = (\n",
+      "filename": "roundcubemail\\plugins\\password\\helpers\\chpass-wrapper.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 5,
+      "line_range": [
+        5,
+        6
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "28 \n29 handle = subprocess.Popen('/usr/sbin/chpasswd', stdin = subprocess.PIPE)\n30 handle.communicate('%s:%s' % (username, password))\n",
+      "filename": "roundcubemail\\plugins\\password\\helpers\\chpass-wrapper.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 29,
+      "line_range": [
+        29
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

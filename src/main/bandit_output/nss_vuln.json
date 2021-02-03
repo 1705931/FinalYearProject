@@ -1,0 +1,990 @@
+{
+  "errors": [
+    {
+      "filename": "nss\\gtests\\google_test\\gtest\\scripts\\gen_gtest_pred_impl.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "nss\\gtests\\google_test\\gtest\\scripts\\pump.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "nss\\gtests\\google_test\\gtest\\scripts\\release_docs.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "nss\\gtests\\google_test\\gtest\\scripts\\upload.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\googletest-env-var-test.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\googletest-throw-on-failure-test.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\googletest-uninitialized-test.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\gtest_xml_output_unittest.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "nss\\gtests\\google_test\\gtest\\xcode\\Scripts\\versiongenerate.py",
+      "reason": "syntax error while parsing AST from file"
+    }
+  ],
+  "generated_at": "2021-01-26T16:34:51Z",
+  "metrics": {
+    "_totals": {
+      "CONFIDENCE.HIGH": 34.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 1.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 5.0,
+      "SEVERITY.LOW": 25.0,
+      "SEVERITY.MEDIUM": 5.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 7032,
+      "nosec": 0
+    },
+    "nss\\automation\\release\\nss-release-helper.py": {
+      "CONFIDENCE.HIGH": 9.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 2.0,
+      "SEVERITY.LOW": 7.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 281,
+      "nosec": 0
+    },
+    "nss\\coreconf\\check_cc.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 16,
+      "nosec": 0
+    },
+    "nss\\coreconf\\detect_host_arch.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 18,
+      "nosec": 0
+    },
+    "nss\\coreconf\\sanitizers.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 27,
+      "nosec": 0
+    },
+    "nss\\coreconf\\shlibsign.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 19,
+      "nosec": 0
+    },
+    "nss\\coreconf\\werror.py": {
+      "CONFIDENCE.HIGH": 4.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 4.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 42,
+      "nosec": 0
+    },
+    "nss\\gtests\\__init__.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 0,
+      "nosec": 0
+    },
+    "nss\\gtests\\common\\__init__.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 0,
+      "nosec": 0
+    },
+    "nss\\gtests\\common\\wycheproof\\__init__.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 0,
+      "nosec": 0
+    },
+    "nss\\gtests\\common\\wycheproof\\genTestVectors.py": {
+      "CONFIDENCE.HIGH": 3.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 3.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 722,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\scripts\\common.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 1.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 31,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\scripts\\fuse_gtest_files.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 137,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\scripts\\gen_gtest_pred_impl.py": {
+      "loc": 518,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\scripts\\pump.py": {
+      "loc": 644,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\scripts\\release_docs.py": {
+      "loc": 87,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\scripts\\upload.py": {
+      "loc": 1132,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\scripts\\upload_gtest.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 1.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 30,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-break-on-failure-unittest.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 122,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-catch-exceptions-test.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 155,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-color-test.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 72,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-env-var-test.py": {
+      "loc": 59,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-filter-unittest.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 2.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 405,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-json-outfiles-test.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 108,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-json-output-unittest.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 536,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-list-tests-unittest.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 133,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-output-test.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 216,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-param-test-invalid-name1-test.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 18,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-param-test-invalid-name2-test.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 18,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-shuffle-test.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 212,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-throw-on-failure-test.py": {
+      "loc": 95,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\googletest-uninitialized-test.py": {
+      "loc": 22,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\gtest_help_test.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 102,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\gtest_json_test_utils.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 26,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\gtest_list_output_unittest.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 94,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\gtest_test_utils.py": {
+      "CONFIDENCE.HIGH": 4.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 2.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 173,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\gtest_testbridge_test.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 21,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\gtest_xml_outfiles_test.py": {
+      "CONFIDENCE.HIGH": 4.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 3.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 85,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\gtest_xml_output_unittest.py": {
+      "loc": 302,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\test\\gtest_xml_test_utils.py": {
+      "CONFIDENCE.HIGH": 1.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 1.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 148,
+      "nosec": 0
+    },
+    "nss\\gtests\\google_test\\gtest\\xcode\\Scripts\\versiongenerate.py": {
+      "loc": 47,
+      "nosec": 0
+    },
+    "nss\\lib\\ckfw\\builtins\\certdata.py": {
+      "CONFIDENCE.HIGH": 2.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 2.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 10,
+      "nosec": 0
+    },
+    "nss\\lib\\mozpkix\\tools\\DottedOIDToCode.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 149,
+      "nosec": 0
+    }
+  },
+  "results": [
+    {
+      "code": "11 from optparse import OptionParser\n12 from subprocess import check_call\n13 from subprocess import check_output\n",
+      "filename": "nss\\automation\\release\\nss-release-helper.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with check_call module.",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "12 from subprocess import check_call\n13 from subprocess import check_output\n14 \n15 nssutil_h = \"lib/util/nssutil.h\"\n",
+      "filename": "nss\\automation\\release\\nss-release-helper.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with check_output module.",
+      "line_number": 13,
+      "line_range": [
+        13,
+        14
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "37     print(\"Executing command: {}\".format(cmd))\n38     check_call(cmd, *args, **kwargs)\n39 \n",
+      "filename": "nss\\automation\\release\\nss-release-helper.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 38,
+      "line_range": [
+        38
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "217 def set_all_lib_versions(version, major, minor, patch, build):\n218     grep_major = check_output(['grep', 'define.*NSS_VMAJOR', nss_h])\n219     grep_minor = check_output(['grep', 'define.*NSS_VMINOR', nss_h])\n",
+      "filename": "nss\\automation\\release\\nss-release-helper.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 218,
+      "line_range": [
+        218
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "217 def set_all_lib_versions(version, major, minor, patch, build):\n218     grep_major = check_output(['grep', 'define.*NSS_VMAJOR', nss_h])\n219     grep_minor = check_output(['grep', 'define.*NSS_VMINOR', nss_h])\n",
+      "filename": "nss\\automation\\release\\nss-release-helper.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 218,
+      "line_range": [
+        218
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "218     grep_major = check_output(['grep', 'define.*NSS_VMAJOR', nss_h])\n219     grep_minor = check_output(['grep', 'define.*NSS_VMINOR', nss_h])\n220 \n",
+      "filename": "nss\\automation\\release\\nss-release-helper.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 219,
+      "line_range": [
+        219
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "218     grep_major = check_output(['grep', 'define.*NSS_VMAJOR', nss_h])\n219     grep_minor = check_output(['grep', 'define.*NSS_VMINOR', nss_h])\n220 \n",
+      "filename": "nss\\automation\\release\\nss-release-helper.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 219,
+      "line_range": [
+        219
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "313     check_call_noisy([\"tar\", \"-cz\", \"--remove-files\", \"-f\", nss_nspr_tar, \"nss-\" + nssrel])\n314     check_call(\"sha1sum \" + nss_tar + \" \" + nss_nspr_tar + \" > SHA1SUMS\", shell=True)\n315     check_call(\"sha256sum \" + nss_tar + \" \" + nss_nspr_tar + \" > SHA256SUMS\", shell=True)\n",
+      "filename": "nss\\automation\\release\\nss-release-helper.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 314,
+      "line_range": [
+        314
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "314     check_call(\"sha1sum \" + nss_tar + \" \" + nss_nspr_tar + \" > SHA1SUMS\", shell=True)\n315     check_call(\"sha256sum \" + nss_tar + \" \" + nss_nspr_tar + \" > SHA256SUMS\", shell=True)\n316     print(\"created directory \" + nss_stagedir + \" with files:\")\n",
+      "filename": "nss\\automation\\release\\nss-release-helper.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 315,
+      "line_range": [
+        315
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "3 import os\n4 import subprocess\n5 import sys\n",
+      "filename": "nss\\coreconf\\check_cc.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "12         try:\n13             cc_is_arg = sys.argv[1] in subprocess.check_output(\n14               [cc, '--version'], universal_newlines=True)\n15         except OSError:\n",
+      "filename": "nss\\coreconf\\check_cc.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 13,
+      "line_range": [
+        13,
+        14
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "7 import os\n8 import subprocess\n9 import sys\n",
+      "filename": "nss\\coreconf\\shlibsign.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 8,
+      "line_range": [
+        8
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "26     dev_null = open(os.devnull, 'wb')\n27     subprocess.check_call([os.path.join(bin_path, 'shlibsign'), '-v', '-i', lib_file], env=env, stdout=dev_null, stderr=dev_null)\n28 \n",
+      "filename": "nss\\coreconf\\shlibsign.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 27,
+      "line_range": [
+        27
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 import os\n4 import subprocess\n5 \n6 def main():\n",
+      "filename": "nss\\coreconf\\werror.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4,
+        5
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "9     try:\n10         cc_is_clang = 'clang' in subprocess.check_output(\n11           [cc, '--version'], universal_newlines=True, stderr=sink)\n12     except OSError:\n",
+      "filename": "nss\\coreconf\\werror.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 10,
+      "line_range": [
+        10,
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "16     def warning_supported(warning):\n17         return subprocess.call([cc, '-x', 'c', '-E', '-Werror',\n18                                 '-W%s' % warning, os.devnull], stdout=sink, stderr=sink) == 0\n19     def can_enable():\n",
+      "filename": "nss\\coreconf\\werror.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 17,
+      "line_range": [
+        17,
+        18
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "26             try:\n27                 v = subprocess.check_output([cc, '-dumpversion'], stderr=sink).decode(\"utf-8\")\n28                 v = v.strip(' \\r\\n').split('.')\n",
+      "filename": "nss\\coreconf\\werror.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 27,
+      "line_range": [
+        27
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "9 import os\n10 import subprocess\n11 \n12 from cryptography.hazmat.backends import default_backend\n",
+      "filename": "nss\\gtests\\common\\wycheproof\\genTestVectors.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 10,
+      "line_range": [
+        10,
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "822     for test in tests:\n823         subprocess.check_call(['wget', remote+test['source_file'], '-O',\n824                                'gtests/common/wycheproof/source_vectors/' +test['source_file']])\n825 \n",
+      "filename": "nss\\gtests\\common\\wycheproof\\genTestVectors.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 823,
+      "line_range": [
+        823,
+        824
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "822     for test in tests:\n823         subprocess.check_call(['wget', remote+test['source_file'], '-O',\n824                                'gtests/common/wycheproof/source_vectors/' +test['source_file']])\n825 \n",
+      "filename": "nss\\gtests\\common\\wycheproof\\genTestVectors.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 823,
+      "line_range": [
+        823,
+        824
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "48 \n49   f = os.popen(command, 'r')\n50   lines = [line.strip() for line in f.readlines()]\n",
+      "filename": "nss\\gtests\\google_test\\gtest\\scripts\\common.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 49,
+      "line_range": [
+        49
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "73   # Invokes upload.py with the modified command line flags.\n74   os.execv(upload_py_path, upload_py_argv)\n75 \n",
+      "filename": "nss\\gtests\\google_test\\gtest\\scripts\\upload_gtest.py",
+      "issue_confidence": "MEDIUM",
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process without a shell.",
+      "line_number": 74,
+      "line_range": [
+        74
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b606_start_process_with_no_shell.html",
+      "test_id": "B606",
+      "test_name": "start_process_with_no_shell"
+    },
+    {
+      "code": "60       [sys.executable, '-c', 'import os; print \\'EMPTY_VAR\\' in os.environ'])\n61   CAN_PASS_EMPTY_ENV = eval(child.output)\n62 \n",
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\googletest-filter-unittest.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 61,
+      "line_range": [
+        61
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "76       ])\n77   CAN_UNSET_ENV = eval(child.output)\n78 \n",
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\googletest-filter-unittest.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 77,
+      "line_range": [
+        77
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "45 try:\n46   import subprocess\n47   _SUBPROCESS_MODULE_AVAILABLE = True\n",
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\gtest_test_utils.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 46,
+      "line_range": [
+        46
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "238 \n239       p = subprocess.Popen(command,\n240                            stdout=subprocess.PIPE, stderr=stderr,\n241                            cwd=working_dir, universal_newlines=True, env=env)\n242       # communicate returns a tuple with the file object for the child's\n",
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\gtest_test_utils.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 239,
+      "line_range": [
+        239,
+        240,
+        241
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "268         if capture_stderr:\n269           p = popen2.Popen4(command)\n270         else:\n",
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\gtest_test_utils.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 269,
+      "line_range": [
+        269
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "270         else:\n271           p = popen2.Popen3(command)\n272         p.tochild.close()\n",
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\gtest_test_utils.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 271,
+      "line_range": [
+        271
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "34 import os\n35 from xml.dom import minidom, Node\n36 import gtest_test_utils\n",
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\gtest_xml_outfiles_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Using minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",
+      "line_number": 35,
+      "line_range": [
+        35
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b408-import-xml-minidom",
+      "test_id": "B408",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "125 \n126     expected = minidom.parseString(expected_xml)\n127     if os.path.isfile(output_file1):\n",
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\gtest_xml_outfiles_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called",
+      "line_number": 126,
+      "line_range": [
+        126
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b313-b320-xml-bad-minidom",
+      "test_id": "B318",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "127     if os.path.isfile(output_file1):\n128       actual = minidom.parse(output_file1)\n129     else:\n",
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\gtest_xml_outfiles_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Using xml.dom.minidom.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parse with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called",
+      "line_number": 128,
+      "line_range": [
+        128
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b313-b320-xml-bad-minidom",
+      "test_id": "B318",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "129     else:\n130       actual = minidom.parse(output_file2)\n131     self.NormalizeXml(actual.documentElement)\n",
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\gtest_xml_outfiles_test.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Using xml.dom.minidom.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parse with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called",
+      "line_number": 130,
+      "line_range": [
+        130
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b313-b320-xml-bad-minidom",
+      "test_id": "B318",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "32 import re\n33 from xml.dom import minidom, Node\n34 import gtest_test_utils\n",
+      "filename": "nss\\gtests\\google_test\\gtest\\test\\gtest_xml_test_utils.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Using minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",
+      "line_number": 33,
+      "line_range": [
+        33
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b408-import-xml-minidom",
+      "test_id": "B408",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "6 \n7 import subprocess\n8 import os\n",
+      "filename": "nss\\lib\\ckfw\\builtins\\certdata.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with subprocess module.",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "13     script = os.path.dirname(os.path.abspath(__file__))+'/certdata.perl'\n14     subprocess.check_call([os.environ.get('PERL', 'perl'), script] + args,\n15                           env=os.environ)\n16 \n",
+      "filename": "nss\\lib\\ckfw\\builtins\\certdata.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 14,
+      "line_range": [
+        14,
+        15
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

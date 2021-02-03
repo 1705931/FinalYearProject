@@ -1,0 +1,132 @@
+{
+  "errors": [],
+  "generated_at": "2021-01-26T16:36:29Z",
+  "metrics": {
+    "_totals": {
+      "CONFIDENCE.HIGH": 6.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 5.0,
+      "SEVERITY.MEDIUM": 1.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 171,
+      "nosec": 0
+    },
+    "postgres\\contrib\\unaccent\\generate_unaccent_rules.py": {
+      "CONFIDENCE.HIGH": 6.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 5.0,
+      "SEVERITY.MEDIUM": 1.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 159,
+      "nosec": 0
+    },
+    "postgres\\src\\test\\locale\\sort-test.py": {
+      "CONFIDENCE.HIGH": 0.0,
+      "CONFIDENCE.LOW": 0.0,
+      "CONFIDENCE.MEDIUM": 0.0,
+      "CONFIDENCE.UNDEFINED": 0.0,
+      "SEVERITY.HIGH": 0.0,
+      "SEVERITY.LOW": 0.0,
+      "SEVERITY.MEDIUM": 0.0,
+      "SEVERITY.UNDEFINED": 0.0,
+      "loc": 12,
+      "nosec": 0
+    }
+  },
+  "results": [
+    {
+      "code": "38 import sys\n39 import xml.etree.ElementTree as ET\n40 \n41 # BEGIN: Python 2/3 compatibility - remove when Python 2 compatibility dropped\n42 if sys.version_info[0] <= 2:\n",
+      "filename": "postgres\\contrib\\unaccent\\generate_unaccent_rules.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",
+      "line_number": 39,
+      "line_range": [
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b405-import-xml-etree",
+      "test_id": "B405",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "147         # Should not come here\n148         assert(False)\n149     elif is_plain_letter(codepoint):\n",
+      "filename": "postgres\\contrib\\unaccent\\generate_unaccent_rules.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 148,
+      "line_range": [
+        148
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "152     # Should not come here\n153     assert(False)\n154 \n",
+      "filename": "postgres\\contrib\\unaccent\\generate_unaccent_rules.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 153,
+      "line_range": [
+        153
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "160     \"\"\"Return a list of plain letters from a ligature.\"\"\"\n161     assert(is_ligature(codepoint, table))\n162     return [get_plain_letter(table[id], table) for id in codepoint.combining_ids]\n",
+      "filename": "postgres\\contrib\\unaccent\\generate_unaccent_rules.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 161,
+      "line_range": [
+        161
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "172     # construct tree from XML\n173     transliterationTree = ET.parse(latinAsciiFilePath)\n174     transliterationTreeRoot = transliterationTree.getroot()\n",
+      "filename": "postgres\\contrib\\unaccent\\generate_unaccent_rules.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "MEDIUM",
+      "issue_text": "Using xml.etree.ElementTree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.parse with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called",
+      "line_number": 173,
+      "line_range": [
+        173
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b313-b320-xml-bad-elementtree",
+      "test_id": "B314",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "179     blockRules = transliterationTreeRoot.findall(\"./transforms/transform/tRule\")\n180     assert(len(blockRules) == 1)\n181 \n182     # Split the block of rules into one element per line.\n183     rules = blockRules[0].text.splitlines()\n",
+      "filename": "postgres\\contrib\\unaccent\\generate_unaccent_rules.py",
+      "issue_confidence": "HIGH",
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 180,
+      "line_range": [
+        180,
+        181,
+        182
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    }
+  ]
+}

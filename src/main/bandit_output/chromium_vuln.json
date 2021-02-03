@@ -1985,7 +1985,7 @@
       "reason": "syntax error while parsing AST from file"
     }
   ],
-  "generated_at": "2021-01-03T15:18:17Z",
+  "generated_at": "2021-01-26T16:18:42Z",
   "metrics": {
     "_totals": {
       "CONFIDENCE.HIGH": 1327.0,

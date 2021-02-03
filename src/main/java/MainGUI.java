@@ -1,3 +1,5 @@
+import org.apache.maven.scm.provider.ScmProviderRepositoryWithHost;
+
 import javax.script.ScriptException;
 import javax.swing.*;
 import java.awt.*;
@@ -14,9 +16,9 @@ public class MainGUI extends JFrame{
     private JButton showResultsButton;
     private JTextArea rOutputArea;
     private JButton loadReposButton;
-    private final JFileChooser dirSelector = new JFileChooser();
+    private JButton generateNumberOfVulnFilesButton;
+    private JButton generateLinesInRepoButton;
     String[] dirNames; //this array stores the names of directories
-    File f = new File("D:\\IntelliJ Projects\\VulinOSS\\vulinoss"); //path of where the directories are
     Roperations r = new Roperations();
 
     public MainGUI()
@@ -25,14 +27,6 @@ public class MainGUI extends JFrame{
         JScrollPane scroller = new JScrollPane(rootPanel);
         this.getContentPane().add(scroller, BorderLayout.CENTER);
         add(scroller);
-
-//        dirSelector.setDialogTitle("Choose a Python Repository");
-//        dirSelector.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-
-        //For each directory name, add it to the repoSelector JComboBox
-        for (String s : dirNames = f.list()) {
-            repoSelector.addItem(s);
-        }
         //Set the title of the program
         setTitle("Python Repo Analyser");
         //Set the size of the window
@@ -42,22 +36,23 @@ public class MainGUI extends JFrame{
         //Set the output text area to wrap
         rOutputArea.setLineWrap(true);
 
-//        loadReposButton.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                if (dirSelector.showOpenDialog(null) == JFileChooser.APPROVE_OPTION){
-//                    File file = dirSelector.getCurrentDirectory();
-//                    System.out.println(file);
-//                    String fileName = file.getAbsolutePath();
-//                    System.out.println(fileName);
-//                    File f = new File(fileName);
-//                    //For each directory name, add it to the repoSelector JComboBox
-//                    for (String s : dirNames = f.list()) {
-//                        repoSelector.addItem(s);
-//                    }
-//                }
-//            }
-//        });
+        loadReposButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFileChooser dirChooser = new JFileChooser();
+                dirChooser.setDialogTitle("Choose a Source of Data");
+                dirChooser.setCurrentDirectory(new File(System.getProperty("user.home")));
+                dirChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+                int result = dirChooser.showOpenDialog(null);
+                if (result == JFileChooser.APPROVE_OPTION) {
+                    repoSelector.removeAllItems();
+                    File selectedFolder = dirChooser.getSelectedFile();
+                    for (String s : dirNames = selectedFolder.list()){
+                        repoSelector.addItem(s);
+                    }
+                }
+            }
+        });
 
         analyseRepoButton.addActionListener(new ActionListener() {
             @Override
@@ -78,7 +73,8 @@ public class MainGUI extends JFrame{
                 try {
                     String result = r.generateResults(repoSelector.getSelectedItem());
                     rOutputArea.setText("");
-                    rOutputArea.append(result + result.length());
+//                    rOutputArea.append(result + result.length());
+                    rOutputArea.append(result);
 //                    if(result.length() > 1000){
 //                        File resultTable = new File("test.txt");
 //                            System.out.println("File created: " + resultTable.getName());
@@ -87,6 +83,41 @@ public class MainGUI extends JFrame{
 //                            writer.close();
 //                            System.out.println("Write Successful");
 //                    }
+                } catch (ScriptException | IOException scriptException) {
+                    scriptException.printStackTrace();
+                }
+            }
+        });
+
+        generateNumberOfVulnFilesButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try{
+                    String result = r.generateVulnFiles(repoSelector.getSelectedItem());
+                    rOutputArea.setText("");
+                    rOutputArea.append(result);
+                    FileWriter csvWriter = new FileWriter("vuln_files_lines_in_repo.csv", true);
+                    csvWriter.append(result);
+                    csvWriter.append(",");
+                    csvWriter.flush();
+                    csvWriter.close();
+                } catch (ScriptException | IOException scriptException) {
+                    scriptException.printStackTrace();
+                }
+            }
+        });
+
+        generateLinesInRepoButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try{
+                    String result = r.generateLinesInRepo(repoSelector.getSelectedItem());
+                    rOutputArea.setText("");
+                    rOutputArea.append(result);
+                    FileWriter csvWriter = new FileWriter("vuln_files_lines_in_repo.csv", true);
+                    csvWriter.append(result);
+                    csvWriter.flush();
+                    csvWriter.close();
                 } catch (ScriptException | IOException scriptException) {
                     scriptException.printStackTrace();
                 }
