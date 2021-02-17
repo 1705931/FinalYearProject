@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.renjin</groupId>
             <artifactId>renjin-script-engine</artifactId>
-            <version>3.5-beta43</version>
+            <version>3.5-beta76</version>
         </dependency>
 
         <dependency>
