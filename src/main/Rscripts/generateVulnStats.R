@@ -5,7 +5,8 @@ library('org.renjin.cran:plyr')
 #Load the tibble package for printing reusult more neatly
 library('org.renjin.cran:tibble')
 
-json_data <- fromJSON(file = inputData)
+json_data <- fromJSON(file = inputJson)
+
 #Collect the results from the results part of the json file
 results <- json_data$results
 #Collect the metrics from the metrics part of the json file

@@ -45,6 +45,18 @@
             <version>1.1-b151</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.renjin.cran</groupId>
+            <artifactId>XML</artifactId>
+            <version>3.98-1.9-b22</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.renjin.cran</groupId>
+            <artifactId>xml2</artifactId>
+            <version>1.2-renjin-10</version>
+        </dependency>
+
     </dependencies>
 
     <repositories>

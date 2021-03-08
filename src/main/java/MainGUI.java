@@ -12,14 +12,14 @@ import java.io.IOException;
 public class MainGUI extends JFrame{
     private JButton analyseRepoButton;
     private JPanel rootPanel;
-    private JComboBox repoSelector;
-    private JButton showResultsButton;
-    private JTextArea rOutputArea;
-    private JButton loadReposButton;
-    private JButton generateNumberOfVulnFilesButton;
-    private JButton generateLinesInRepoButton;
+    private JComboBox repoSelector; //dropdown menu for choosing a repo
+    private JButton showResultsButton; //generate results button
+    private JTextArea rOutputArea; //results area
+    private JButton loadReposButton; //load repos button
+    private JButton showTablesButton; //generate tables button
     String[] dirNames; //this array stores the names of directories
-    Roperations r = new Roperations();
+    String targetPath; //needed for running Bandit on the correct repo
+    Roperations r = new Roperations(); //instance of the Roperations class
 
     public MainGUI()
     {
@@ -47,6 +47,7 @@ public class MainGUI extends JFrame{
                 if (result == JFileChooser.APPROVE_OPTION) {
                     repoSelector.removeAllItems();
                     File selectedFolder = dirChooser.getSelectedFile();
+                    targetPath = selectedFolder.getAbsolutePath();
                     for (String s : dirNames = selectedFolder.list()){
                         repoSelector.addItem(s);
                     }
@@ -59,7 +60,13 @@ public class MainGUI extends JFrame{
             public void actionPerformed(ActionEvent e)
             {
                 try{
-                    Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd ..\\VulinOSS\\vulinoss && bandit -r " + repoSelector.getSelectedItem() + " -f json -o ..\\..\\FinalYearProject\\src\\main\\bandit_output\\" + repoSelector.getSelectedItem() + "_vuln.json");
+                    System.out.println(targetPath);
+                    if (targetPath != null){
+                        Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd " + targetPath + " && bandit -r " + repoSelector.getSelectedItem() + " -f json -o ..\\..\\FinalYearProject\\src\\main\\bandit_output\\" + repoSelector.getSelectedItem() + "_vuln.json");
+                    } else {
+                        rOutputArea.setText("");
+                        rOutputArea.append("Make sure to load a repository first!");
+                    }
                 } catch (Exception ex) {
                     System.out.println(ex);
                     ex.printStackTrace();
@@ -75,51 +82,34 @@ public class MainGUI extends JFrame{
                     rOutputArea.setText("");
 //                    rOutputArea.append(result + result.length());
                     rOutputArea.append(result);
-//                    if(result.length() > 1000){
-//                        File resultTable = new File("test.txt");
-//                            System.out.println("File created: " + resultTable.getName());
-//                            FileWriter writer = new FileWriter("test.txt");
-//                            writer.write(result);
-//                            writer.close();
-//                            System.out.println("Write Successful");
-//                    }
-                } catch (ScriptException | IOException scriptException) {
-                    scriptException.printStackTrace();
+                } catch (Exception exception) {
+                    rOutputArea.setText("");
+                    rOutputArea.append("No vulnerabilities found, make sure there are Python files in the repository");
+                    exception.printStackTrace();
                 }
             }
         });
 
-        generateNumberOfVulnFilesButton.addActionListener(new ActionListener() {
+        showTablesButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                try{
-                    String result = r.generateVulnFiles(repoSelector.getSelectedItem());
+                try {
+                    String result = r.generateTables(repoSelector.getSelectedItem());
                     rOutputArea.setText("");
-                    rOutputArea.append(result);
-                    FileWriter csvWriter = new FileWriter("vuln_files_lines_in_repo.csv", true);
-                    csvWriter.append(result);
-                    csvWriter.append(",");
-                    csvWriter.flush();
-                    csvWriter.close();
-                } catch (ScriptException | IOException scriptException) {
-                    scriptException.printStackTrace();
-                }
-            }
-        });
-
-        generateLinesInRepoButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                try{
-                    String result = r.generateLinesInRepo(repoSelector.getSelectedItem());
+                    if(result.length() > 5000) {
+                        File resultTable = new File(repoSelector.getSelectedItem()+"_table.txt");
+                        System.out.println("File created: " + resultTable.getName());
+                        FileWriter writer = new FileWriter(repoSelector.getSelectedItem()+"_table.txt");
+                        writer.write(result);
+                        writer.close();
+                        System.out.println("Write Successful");
+                    } else {
+                        rOutputArea.append(result);
+                    }
+                } catch (Exception exception) {
                     rOutputArea.setText("");
-                    rOutputArea.append(result);
-                    FileWriter csvWriter = new FileWriter("vuln_files_lines_in_repo.csv", true);
-                    csvWriter.append(result);
-                    csvWriter.flush();
-                    csvWriter.close();
-                } catch (ScriptException | IOException scriptException) {
-                    scriptException.printStackTrace();
+                    rOutputArea.append("No vulnerabilities found, make sure there are Python files in the repository");
+                    exception.printStackTrace();
                 }
             }
         });
