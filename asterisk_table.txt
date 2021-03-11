@@ -1,0 +1,40 @@
+
+Summary of the tests that found vulnerabilities: 
+ #   A   t i b b l e :   4   x   3
+  test_id                    issue_severity             line_numbers              
+  <chr>                      <chr>                      <chr>                     
+1 B101                       LOW                        107,217,221,225,231,94,107
+2 B110                       LOW                        18                        
+3 B318                       MEDIUM                     97,92                     
+4 B408                       LOW                        12,14                     
+
+Line Numbers for each Issue Severity: 
+ #   A   t i b b l e :   2   x   2
+  issue_severity                      line_numbers                       
+  <chr>                               <chr>                              
+1 LOW                                 12,14,18,107,217,221,225,231,94,107
+2 MEDIUM                              97,92                              
+
+Issues Grouped by Filename: 
+ #   A   t i b b l e :   5   x   4
+  filename                                              issue_severities                                      line_numbers                                          test_ids                                             
+  <chr>                                                 <chr>                                                 <chr>                                                 <chr>                                                
+1 asterisk\\build_tools\\get_documentation.py           LOW,MEDIUM                                            12,97                                                 B408,B318                                            
+2 asterisk\\build_tools\\post_process_documentation.py  LOW,MEDIUM                                            14,92                                                 B408,B318                                            
+3 asterisk\\contrib\\ast-db-manage\\env.py              LOW                                                   18                                                    B110                                                 
+4 asterisk\\contrib\\scripts\\spandspflow2pcap.py       LOW,LOW,LOW,LOW,LOW                                   107,217,221,225,231                                   B101,B101,B101,B101,B101                             
+5 asterisk\\rest-api-templates\\asterisk_processor.py   LOW,LOW                                               94,107                                                B101,B101                                            
+
+Line Number vs Issue Severity Table:
+    LOW    MEDIUM
+107 2      0     
+ 12 1      0     
+ 14 1      0     
+ 18 1      0     
+217 1      0     
+221 1      0     
+225 1      0     
+231 1      0     
+ 92 0      1     
+ 94 1      0     
+ 97 0      1     

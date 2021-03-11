@@ -20,6 +20,7 @@ public class MainGUI extends JFrame{
     String[] dirNames; //this array stores the names of directories
     String targetPath; //needed for running Bandit on the correct repo
     Roperations r = new Roperations(); //instance of the Roperations class
+    File projectDir = new File(System.getProperty("user.dir")); //root dir of the project
 
     public MainGUI()
     {
@@ -63,6 +64,7 @@ public class MainGUI extends JFrame{
                     System.out.println(targetPath);
                     if (targetPath != null){
                         Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd " + targetPath + " && bandit -r " + repoSelector.getSelectedItem() + " -f json -o ..\\..\\FinalYearProject\\src\\main\\bandit_output\\" + repoSelector.getSelectedItem() + "_vuln.json");
+//                        Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd " + targetPath + " && bandit -r " + repoSelector.getSelectedItem() + " -f json -o \"" + projectDir + "\\src\\bandit_output\\" + repoSelector.getSelectedItem() + "_vuln.json\"");
                     } else {
                         rOutputArea.setText("");
                         rOutputArea.append("Make sure to load a repository first!");
