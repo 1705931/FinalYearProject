@@ -61,10 +61,8 @@ public class MainGUI extends JFrame{
             public void actionPerformed(ActionEvent e)
             {
                 try{
-                    System.out.println(targetPath);
                     if (targetPath != null){
-                        Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd " + targetPath + " && bandit -r " + repoSelector.getSelectedItem() + " -f json -o ..\\..\\FinalYearProject\\src\\main\\bandit_output\\" + repoSelector.getSelectedItem() + "_vuln.json");
-//                        Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd " + targetPath + " && bandit -r " + repoSelector.getSelectedItem() + " -f json -o \"" + projectDir + "\\src\\bandit_output\\" + repoSelector.getSelectedItem() + "_vuln.json\"");
+                        Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"cd " + targetPath + " && bandit -r " + repoSelector.getSelectedItem() + " -f json -o " + projectDir + "\\src\\main\\bandit_output\\" + repoSelector.getSelectedItem() + "_vuln.json");
                     } else {
                         rOutputArea.setText("");
                         rOutputArea.append("Make sure to load a repository first!");
@@ -82,7 +80,6 @@ public class MainGUI extends JFrame{
                 try {
                     String result = r.generateResults(repoSelector.getSelectedItem());
                     rOutputArea.setText("");
-//                    rOutputArea.append(result + result.length());
                     rOutputArea.append(result);
                 } catch (Exception exception) {
                     rOutputArea.setText("");
