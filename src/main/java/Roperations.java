@@ -63,21 +63,17 @@ public class Roperations {
         engine.eval("cat(\"\nSummary of the tests that found vulnerabilities: \\n\")");
         engine.eval("print(summary_table, width = 500)");
 
-        /*
-        *The following were ideas that did not quite make it to the final software
-
         //Print line numbers vs issue severity table
         engine.eval("cat(\"\nLine Numbers for each Issue Severity: \\n\")");
         engine.eval("print(line_no_table, width = 500)");
+
         //May be more useful?
         engine.eval("cat(\"\nIssues Grouped by Filename: \\n\")");
         engine.eval("print(filename_table, width = 500)");
+
         //Too messy
         engine.eval("cat(\"\nLine Number vs Issue Severity Table:\n\")");
         engine.eval("print(issue_sev_vs_line_no)");
-
-         */
-
 
         String output = outputWriter.toString();
         return output;
